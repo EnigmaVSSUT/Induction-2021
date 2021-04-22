@@ -1,6 +1,7 @@
 
-*"Success is the sum of small efforts, repeated day in and day out."*
-*-Robert Collier*
+**"Success is the sum of small efforts, repeated day in and day out."
+<br>
+**-Robert Collier
 
 Enigma-The coding club welcomes all the freshers for INDUCTION 2021 and hope all of you are eagerly waiting to know what you are going to learn in this whole procedure of Induction. 
 
