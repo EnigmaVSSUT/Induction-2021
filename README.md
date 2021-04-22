@@ -26,6 +26,7 @@ This week starts with a very popular and high level programming language, Python
 **5. Content Writing/ Video Editing/ Graphic Design: (23.05.2021 to 30.05.2021)** <br>
 A task will be given to you regarding this.
 <br>
+<br>
 Isn't sounds interesting? Come and explore!
 <br>
 <br>
