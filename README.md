@@ -10,7 +10,7 @@ i) Technical : Resources and materials will be provided for the reference. A tas
 ii) Non- Technical : Only task will be assigned and have to submit within a week. <br>
 
 DOMAINS: <br>
-1. Github: (25.04.2021 to 01.05.2021) <br>
+**1. Github: (25.04.2021 to 01.05.2021)** <br>
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Here, you will be learning the basics of Github. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
 
 2. Competitive Programming: (02.05.2021 to 08.05.2021) <br>
