@@ -1,10 +1,10 @@
-<img src="induction banner.png" height="396px" width="1584px">
+<img src="induction banner.png">
 
 >"Success is the sum of small efforts, repeated day in and day out."<br> **-Robert Collier**
 
 **Enigma-The coding club** welcomes all the freshers for INDUCTION 2021 and hope all of you are eagerly waiting to know what you are going to learn in this whole procedure of Induction.
 
-This is going to be a month long induction starting from **25th Apr, 2021**. 
+This is going to be a month long induction starting from **25th Apr, 2021**.
 
 Let's brief the month long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 25th April 2021 and it will be conducted in five parts.
 
@@ -21,7 +21,6 @@ Third week will be a walk around on one of the most popular technologies of mode
 The fourth and the final week will start with a very popular language, Python. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of Machine Learning.<br>
 
 ##### SUBMISSION: <br>
-Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on your Github and submitting pull-requests to this repository. Kepp in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly. 
+Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on your Github and submitting pull-requests to this repository. Kepp in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly.
 
 Note: After the completion of the fourth week, the information about the induction tasks of non-technical domains will be provided. **Stay Active on our discord server. All the tasks will be notified there.**
-      
