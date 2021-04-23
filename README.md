@@ -6,7 +6,7 @@
 
 This is going to be a month long induction starting from **25th Apr, 2021**.
 
-Let's brief the month long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 25th April 2021 and it will be conducted in five parts.
+Let's brief the month long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 25th April 2021 and it will be conducted in four parts.
 
 ### Week 1 (25.04.2021 to 01.05.2021)
 The first part which is to be covered in the first week comprises of learning the **basics of Git and Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
