@@ -23,6 +23,6 @@ The fourth and the final week will start with a very popular language, **Python*
 #### _SUBMISSION:_ <br>
 Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on Github and submitting pull-requests to this repository. Keep in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly.
 
-**_Note_**: After the completion of the fourth week, the information about the induction tasks of **non-technical domains** will be provided. <br> **Stay Active on our discord server. All the tasks will be notified there.**
+**_Note_**: After the completion of the fourth week, the information about the induction tasks of **non-technical domains** will be provided. **Stay Active on our discord server. All the tasks will be notified there.**
 
 _Haven't joined our Discord channel yet?_ [Join Now](https://discord.gg/5ZUVq3cbwM)
