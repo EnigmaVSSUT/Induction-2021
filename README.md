@@ -8,27 +8,16 @@ This is going to be a month long induction starting from **25th Apr, 2021**. <br
 i) **Technical** : Resources and materials will be provided for the reference. Tasks will be assigned and participants have to submit it within stipulated time. <br>
 ii) **Non- Technical** : Task will be assigned with no resources so as to test ones skills and have to submit within given time period. <br>
 
-## DOMAINS: <br>
-#### 1. Github: (25.04.2021 to 01.05.2021) <br>
-GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Here, you will be learning the basics of Github. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration. GitHub is the pioneer for open source contributions and handy to get materials of interest on any topic.
+Let's brief the month long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 25th April 2021 and it will be conducted in five parts.
 
-#### 2. Competitive Programming: (02.05.2021 to 08.05.2021) <br>
-Programming is fun, programming is an exercise for your brain, programming is a mental sport and when this sport is held over the internet involving sport programmer as a contestant then it is called Competitive Programming (CP). Competitive coding teaches you how to think and improves logic. It is the most important and efficient way of enhancing your coding skills. The motivation in CP is in forming the workable solution quickly (akin to solving a brain teaser) while in Real Programming, it is in the design and architecture aimed to solve a practical problem.
+The first part which is to be covered in the first week comprises of learning the basics of Git and Github. You will be provided with all sorts of materials which will be an apt way to learn from.
 
-#### 3. Web Development: (09.05.2021 to 15.05.2021) <br>
-Since its beginnings at the end of the 20th century, the internet has grown exponentially. In the modern world, pretty much everyone has internet access of some form and a huge percentage of people use the internet every single day. Web development is quickly becoming one of the most attractive and best-paid career choices in the modern world.
-Web development refers to the building of web pages and websites that go on the World Wide Web. Every website is built through intricate lines of code, which you can inspect yourself on your browser.
+Second week starts with a rigorous learning of competitive coding. After that, you will be a series of tasks to test your understanding.
 
-#### 4. Python and Machine Learning: (16.05.2021 to 22.05.2021) <br>
-Python is today one of the most powerful programming languages and it will still be on the top in the next coming decade. Python is polyvalent, you can use it everywhere in everything and it has frameworks and libraries for the most recent technologies such as IA/machine learning, data science, robotics…. 
+Third week will be a walk around on one of the most popular technologies of modern world,web development. You will be learning the basics of web development, the languages like HTML, CSS, Javascript and others to come on the way.
 
-#### 5. Content Writing/ Video Editing/ Graphic Design: (23.05.2021 to 30.05.2021) <br>
-A task will be given to you regarding this.
-<br>
-<br>
-Isn't sounds interesting? Come and explore!
-<br>
-<br>
+The fourth and the final week will start with a very popular language, Python. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of Machine Learning.
+
 ##### SUBMISSION: <br>
 <br>
 Throughout this month, you all will explore the various domains and submit the tasks by pushing your assignments using our very own Github. We'll be constantly evaluating your progress accordingly. Stay in touch.
