@@ -20,8 +20,8 @@ Third week will be a walk around on one of the most popular technologies of mode
 ### Week 4 (16.05.2021 to 22.05.2021)
 The fourth and the final week will start with a very popular language, Python. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of Machine Learning.<br>
 
-Note: After the completion of the fourth week, the informationb about the induction tasks of non-technical domains will be provided.
-
 ##### SUBMISSION: <br>
-<br>
-Throughout this month, you all will explore the various domains and submit the tasks by pushing your assignments using our very own Github. We'll be constantly evaluating your progress accordingly. 
+Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on your Github and submitting pull-requests to this repository. Kepp in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly. 
+
+Note: After the completion of the fourth week, the information about the induction tasks of non-technical domains will be provided. **Stay Active on our discord server. All the tasks will be notified there.**
+      
