@@ -1,4 +1,4 @@
-<img src="induction banner.png">
+<img src="induction banner.png" height="396px">
 
 >"Success is the sum of small efforts, repeated day in and day out."<br> **-Robert Collier**
 
