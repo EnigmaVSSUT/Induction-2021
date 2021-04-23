@@ -4,7 +4,7 @@
 
 **Enigma-The coding club** welcomes all the freshers for INDUCTION 2021 and hope all of you are eagerly waiting to know what you are going to learn in this whole procedure of Induction.
 
-This is going to be a month long induction starting from **25th Apr, 2021**. Here, all the domains are classified as: <br>
+This is going to be a month long induction starting from **25th Apr, 2021**. <br>All the domains are classified as: <br>
 i) **Technical** : Resources and materials will be provided for the reference. Tasks will be assigned and participants have to submit it within stipulated time. <br>
 ii) **Non- Technical** : Task will be assigned with no resources so as to test ones skills and have to submit within given time period. <br>
 
