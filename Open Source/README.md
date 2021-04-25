@@ -34,32 +34,3 @@ Each of the tasks will take 1 day at max. You should work and ask your doubts in
 **REMEMBER**: Try to solve your doubts by yourself by simply googling first.  
 _Stack overflow_ website might show up the answer to solve your doubt!
 
-------------------
-## About the notes
-
-Both git bash notes and Github Desktop app notes can be used to complete the Tasks.
-
-But, We highly recommend and encourage you to follow the git bash notes instead of the Github Desktop app notes.
-
-
-Git bash notes is curated by your mentors only. We have written those from scratch and those are to-the-point notes. Perfectly illustrated!
-
------------------------
-
-## Notes
-
-(follow any one. *Git bash recommended!*)
-
-[Git bash notes (To-the-point & well-illustrated)](https://1drv.ms/u/s!ApWwSDDAnudpgn5kqlxB-t2-jW2E?e=gHGVE2)
-
-OR
-
-[Notes to work with GH Desktop app](https://github.com/Anubhcv/first-contributions/blob/master/gui-tool-tutorials/github-desktop-tutorial.md) + [Watch this full Youtube video to get the basics of Git and Github](https://www.youtube.com/watch?v=iR5WIknxdkY&start=0)
-
---------------------
-### Why you should use a git bash terminal instead of the beautiful Github Desktop App?
-- Working with terminal commands is faster than clicking buttons and waiting for the app to load.
-- Your life as a developer will be so much better with git bash unix like commands.
-
-See here, [People's preference upon using git bash or GH Desktop](
-https://www.quora.com/Which-one-should-I-use-GitHub-Desktop-or-Git-Bash#:~:text=I%20have%20personally%20used%20GitHub,it%20will%20be%20super%20handy.)
