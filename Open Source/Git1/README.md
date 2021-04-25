@@ -41,6 +41,28 @@
 **Example**: [Ashutosh-Khanduala.txt](Ashutosh-Khanduala.txt)
 
 
+## About the notes
+
+Both git bash notes and Github Desktop app notes can be used to complete the Tasks.
+
+But, We highly recommend and encourage you to follow the git bash notes instead of the Github Desktop app notes.
+
+
+Git bash notes is curated by your mentors only. We have written those from scratch and those are to-the-point notes. Perfectly illustrated!
+
+-----------------------
+
+## Notes
+
+(follow any one. *Git bash recommended!*)
+
+[Git bash notes (To-the-point & well-illustrated)](https://1drv.ms/u/s!ApWwSDDAnudpgn5kqlxB-t2-jW2E?e=gHGVE2)
+
+OR
+
+[Notes to work with GH Desktop app](https://github.com/Anubhcv/first-contributions/blob/master/gui-tool-tutorials/github-desktop-tutorial.md) + [Watch this full Youtube video to get the basics of Git and Github](https://www.youtube.com/watch?v=iR5WIknxdkY&start=0)
+
+
 <br>
 
 Now commit your changes and push your file to your forked repo and create a PR(pull-request).
