@@ -1,6 +1,10 @@
 # Open Source
 
-Hey guys! Welcome to week one of **Induction 2021**. We will be learning all about git and github this week.
+Open-Source Software is a type of software whose code is publicly available to use and modify. Open-Source Contribution involves contributing to the development or improvement of open-source software.
+
+Some popular Open-Source Software are the Linux Operating System, Android, Mozilla Firefox, Chromium (which powers Google Chrome and Microsoft Edge), VSCode IDE, VLC Media Player, WordPress Content Manager System, etc.
+
+Open Source is something each one of us is inevitably using every day, possibly without being aware of it. Interestingly the code that resulted in the first manned mission to the moon is also open-sourced. Yes, I am talking about Apollo 11.
 
 ## What You are Gonna Learn:
 
@@ -8,6 +12,18 @@ Hey guys! Welcome to week one of **Induction 2021**. We will be learning all abo
 - Basic GitHub terminologies
 - All About git tool ( with git bash )
 - Basic Git GitHub Workflow (To-the-point well-illustrated `git bash` notes)
+
+---------------------
+## Git and GitHub
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+
+GitHub is one of the world’s largest community of developers. It’s an intricate platform that fosters collaboration and communication between developers. GitHub has a number of useful features that enable development teams to work together on the same project and easily create new versions of software without disrupting the current versions, but it doesn’t stop there.
+
+Once new additions to a program are complete, for example, they can easily be incorporated into existing programs. GitHub also makes it extremely simple to work together on strings of code to really dial in and perfect even the smallest parts of a program. With GitHub, you can collaborate and work on projects with others anywhere in the world.
+
+Of course, that’s only scratching the surface, because when it comes to the question “What is GitHub?” the answer is all about what it can do for you.
 
 ---------------------
 ## The Plan
