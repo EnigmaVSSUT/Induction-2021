@@ -43,14 +43,14 @@
 
 ## About the notes
 
-Both git bash notes and Github Desktop app notes can be used to complete the Tasks.
+Participants can use both git bash and Github Desktop app to complete the tasks.
 
-But, We highly recommend and encourage you to follow the git bash notes instead of the Github Desktop app notes.
+But, we highly recommend and encourage you to follow the git bash  instead of the Github Desktop app.
 
 
-Git bash notes is curated by your mentors only. We have written those from scratch and those are to-the-point notes. Perfectly illustrated!
+Git bash notes is curated by your mentors. We have written those from scratch and those are to-the-point notes illustrated Perfectly !
 
------------------------
+
 
 ## Notes
 
@@ -60,7 +60,7 @@ Git bash notes is curated by your mentors only. We have written those from scrat
 
 OR
 
-[Notes to work with GH Desktop app](https://github.com/Anubhcv/first-contributions/blob/master/gui-tool-tutorials/github-desktop-tutorial.md) + [Watch this full Youtube video to get the basics of Git and Github](https://www.youtube.com/watch?v=iR5WIknxdkY&start=0)
+[Notes to work with Github Desktop app](https://github.com/Anubhcv/first-contributions/blob/master/gui-tool-tutorials/github-desktop-tutorial.md) + [Watch this full Youtube video to get the basics of Git and Github](https://www.youtube.com/watch?v=iR5WIknxdkY&start=0)
 
 
 <br>
