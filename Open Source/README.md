@@ -40,7 +40,7 @@ Information will be provided in our discord server regarding the release of seco
 > **About submitting your work**
 >
 > **You will `create Pull Requests` to this repository in order to submit your work.** <br>
-> Now what is Pull Request? Follow the git notes and you shall know!
+> Now what is Pull Request? Follow the [git notes](./Git1#about-the-notes) and you shall know!
 
 -----------------------
 ## What should I do if I get stuck?
