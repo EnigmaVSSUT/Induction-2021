@@ -5,4 +5,4 @@
 <I Love Making Websites>
 <My Name is Biswajit>
 <I am a student at VSSUT>
-<I use VSC for editing and I am just checking whether the texts are getting commited or not>
+<I use VSC as a text editor and I am just checking whether the texts are getting commited or not>
