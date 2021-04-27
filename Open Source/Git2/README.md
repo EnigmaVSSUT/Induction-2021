@@ -10,9 +10,13 @@ Your task is :
 
 - Add an image of something with the following specifications: 
 
+    **Image File Name**: The image file name must be your name only. 
+    
+    _for example_ [Ashutosh-Khanduala.jfif](./Ashutosh-Khanduala.jfif)
+
     **Image File Location**: ./Open Source/Git2/ 
 
-    **Content in that Image**:- Can be anything nice(e.g. a dish, a pet, or your face). 
+    **Content in that Image**:- Can be anything nice(e.g. your face, or a dish, or a pet, etc). 
 
 
 Now commit your changes and push your file to your forked repo and create a PR. Mentors will automatically come to know if you have updated your outdated repo or not.
