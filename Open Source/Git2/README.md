@@ -12,7 +12,7 @@ Your task is :
 
     **Image File Name**: The image file name must be your name only. 
     
-    _for example_ [Ashutosh-Khanduala.jfif](./Ashutosh-Khanduala.jfif)
+    _for example_ [Ashutosh-Khanduala.jfif](./Ashutosh-khanduala.jfif)
 
     **Image File Location**: ./Open Source/Git2/ 
 
