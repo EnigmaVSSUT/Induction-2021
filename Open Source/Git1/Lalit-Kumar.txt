@@ -1,0 +1,8 @@
+Name: Lalit Kumar
+Branch: Computer Science and Engineering 
+Year: 1st
+Section: D2
+Registration Number: 2002041036
+About Me: I am an ardent learner. I know C & C++ and learning python.
+I have interest in ML-AI and cloud computing and finance. 
+Thank You
