@@ -1,0 +1,9 @@
+Adyasha Samal
+Computer Science and Engineering, Section-D,1st year
+regd. no.-2002040019
+
+I was introduced to programming when I was in +2 science,since I had opted for computer as one of my subjects 
+then.There,we had learnt some basics of C++ program.I have also covered html and css part required for front end 
+web dev,yet need to chisel the skills more,so as to get better at it!! Then,LOC has helped us to gather C program
+knowledge, thanks to our seniors. And at the present,trying to get hold of the git commands,as a part of our 1st 
+task.Excited to learn CP in the upcoming weeks!!!!!!
