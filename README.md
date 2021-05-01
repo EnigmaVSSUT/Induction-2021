@@ -11,6 +11,9 @@ Let's brief the month long venture. It is a well planned path for all the newbie
 ### Week 1 (25.04.2021 to 01.05.2021)
 The first part which is to be covered in the first week comprises of learning the **basics of Git and Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
 
+[TASK 1](./Open Source/Git1)<br>
+[TASK 2](./Open Source/Git2)
+
 ### Week 2 (02.05.2021 to 08.05.2021)
 Second week starts with a rigorous learning of **competitive coding**. After that, their will be a series of tasks to test your understanding.<br>
 
