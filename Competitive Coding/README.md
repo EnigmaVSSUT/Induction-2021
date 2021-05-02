@@ -7,6 +7,7 @@ Patience: patience is the key to success to in CP.
 Practice: the more you participate , the more you practice in contest &  the more thorough you get in CP.
 
 Persevarance : The ability to get along a question even after a lot of "WA" till you see the "AC" will make you the programmer that really can solve everyday problems with his programming skills.
+
 In this domain you will be provided with material to learn basics of Competitive Programming, you will get to practice different varieties of CP questions.
 You will be judged on the outcome of your results of the final contest that would be hosted on the last day i.e on 08.05.2021 . 
 Go through the materials provided in discord and try to practice all the questions that are posted every day.
