@@ -10,6 +10,6 @@
 
 - There will be a **mock Competitive Contest** on **`05.05.2021`** to make you guys comfortable with the environment of CP contests.
 
--  **At the end of the week, i.e on `08.05.2021` we will be taking a competitive coding competition with intermediate level questions and your score in this competition will be marked**.
+> -  **At the end of the week, i.e on `08.05.2021` we will be taking a competitive coding competition with intermediate level questions and your score in this competition will be marked**.
 
 - Don't forget to create your accounts on **CodeChef,Codeforces & HackerEarth** to be able to practice our questions.
