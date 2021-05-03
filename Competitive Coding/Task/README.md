@@ -1,6 +1,6 @@
 #  Instructions
 
-- This will be a **one week** training and practice session of `Competitive Coding`.
+- This will be a **one week** training and practice session of **`Competitive Coding`**.
 
 - You will be learning how to tackle the problem statements, to think in a logical way, to overcome certain mistakes that all programmers face in the beginning and to develop a    habit of practicing competitive coding. At the same time, **we will be giving you practice problems to test your knowledge and understanding**.
 
