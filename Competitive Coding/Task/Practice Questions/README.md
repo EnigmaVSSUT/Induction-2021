@@ -1,6 +1,6 @@
 # Practice Questions.
 
-## Day 1
+## Day 1 :white_check_mark:
 
 Click on Questions below :point_down:
 
@@ -12,7 +12,7 @@ Click on Questions below :point_down:
 
 - [Question 4](https://www.codechef.com/problems/MUFFINS3)
 
-## Day 2
+## Day 2 :white_check_mark:
 
 
 Click on Questions below :point_down:
@@ -27,7 +27,7 @@ Click on Questions below :point_down:
 - [Question 4](https://codeforces.com/problemset/problem/112/A)
 
 
-## Day 3
+## Day 3 :white_check_mark:
 
 
 Click on Questions below :point_down:
