@@ -25,3 +25,20 @@ Click on Questions below :point_down:
 - [Question 3](https://codeforces.com/problemset/problem/118/A)
 
 - [Question 4](https://codeforces.com/problemset/problem/112/A)
+
+
+## Day 3
+
+
+Click on Questions below :point_down:
+
+
+- [Question 1](https://codeforces.com/problemset/problem/266/B)
+
+- [Question 2](https://codeforces.com/problemset/problem/339/B)
+
+- [Question 3](https://codeforces.com/problemset/problem/230/B)
+
+- [Question 4](https://codeforces.com/problemset/problem/122/B)
+
+- [Question 5](https://codeforces.com/problemset/problem/365/B)
