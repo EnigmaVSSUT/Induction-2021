@@ -14,8 +14,11 @@ The first part which is to be covered in the first week comprises of learning th
 [TASK 1: Git Basics - I](./Open%20Source/Git1/) <br>
 [TASK 2: Git Basics - II](./Open%20Source/Git2/)
 
-### Week 2 (02.05.2021 to 08.05.2021)
+### Week 2 (02.05.2021 to 08.05.2021) <a href="./Competitive%20Coding"><img src="https://img.shields.io/badge/on%20-Going-green"></a>
 Second week starts with a rigorous learning of **competitive coding**. After that, their will be a series of tasks to test your understanding.<br>
+
+[Practice Questions](./Competitive%20Coding/Task/Practice%20Questions/README.md) <br>
+[Resources](./Competitive%20Coding/Task/Resources)
 
 ### Week 3 (09.05.2021 to 15.05.2021)
 Third week will be a walk around on one of the most popular technologies of modern world, web development. You will be learning the basics of web development, the languages like **HTML, CSS, Javascript** and others to come on the way.<br>
