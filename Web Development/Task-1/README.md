@@ -18,4 +18,4 @@
 
 9.	If you are facing any problems or having any doubts feel free to ask in the discord server.
 
-## All the best!!
+**All the best!!**
