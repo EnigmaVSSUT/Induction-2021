@@ -12,7 +12,7 @@
 
 6.	After completion of the above steps, make a folder of **`<Your Name>`** inside the [Task Submission](./Task%20submission) folder. Your folder path should look like **`Induction-2021/ Web Development/ Task 1/Task Submission/ <Your Name>`**.
 
-7.	**In the folder add your `HTML` file (name it as `index.html`), `CSS` file , a `.txt` file containing the URL of your webpage hosted on GitHub and a screenshot of your task**. Make sure that you have added the images used in the website in the <Your name> folder.
+7.	**Inside your designated folder add your `HTML` file (name it as `index.html`), `CSS` file , a `.txt` file containing the URL of your webpage hosted on GitHub and a screenshot of your task**. Make sure that you have added the images used in the website in the <Your name> folder.
 
 8.	Finally commit your changes and `create a pull request` along with the **URL of your webpage hosted in the description section of the Pull request**.
 
