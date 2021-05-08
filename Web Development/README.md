@@ -40,25 +40,25 @@ Go through the notes provided below:
 
 **[View Notes](https://docs.google.com/document/d/1qALgKBbGMq1Y7HHHA-X_0xOGhC0ox4K1i2W0avZTkn4/edit?usp=sharing)**
 
-Video Tutorials:
+### Video Tutorials:
 
-`Html`:
+**`Html`**:
 
 •	[Tutorial 1](https://www.youtube.com/watch?app=desktop&v=BsDoLVMnmZs)  
 •	[Tutorial 2](https://www.youtube.com/watch?app=desktop&v=pQN-pnXPaVg)  
 
-`CSS`:
+**`CSS`**:
 
 •	[Tutorial 1](https://www.youtube.com/watch?v=Edsxf_NBFrw&feature=youtu.be)  
 •	[Tutorial 2](https://www.youtube.com/watch?v=1Rs2ND1ryYc)  
 
-`JavaScript`:
+**`JavaScript`**:
 
 •	[Tutorial](https://www.youtube.com/watch?v=hKB-YGF14SY)  
 
 ##
 
-Go through the video tutorials mentioned in the above links. **Make sure that you go through the notes and resources provided to you**. Once you have grasped the basic concepts you can start designing websites of your choice. Check the resources available online and explore the field of web development. Some of the websites where you can learn more about web development are:  
+Go through the video tutorials mentioned in the above links. **Make sure that you go through the notes and resources provided to you**. Once you have grasped the basic concepts you can start designing websites of your choice. **Check the resources available online and explore the field of web development**. Some of the websites where you can learn more about web development are:  
 
 •	[W3Schools](https://www.w3schools.com/)  
 •	[FreeCodeCamp](https://www.freecodecamp.org/)  
