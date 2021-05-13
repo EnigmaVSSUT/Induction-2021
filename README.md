@@ -34,3 +34,4 @@ Throughout the month, you all will explore the various domains and submit your t
 **_Note_**: After the completion of the fourth week, the information about the induction tasks of **non-technical domains** will be provided. **Stay Active on our discord server. All the tasks will be notified there.**
 
 <!--_Haven't joined our Discord channel yet?_ [Join Now](https://discord.gg/5ZUVq3cbwM)-->
+# html-task
