@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ritu Rani</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="grad1">
+      <div class="container">
+        <button id="switch" onclick="toggleTheme()">Switch</button>
+    <script>
+        // function to set a given theme/color-scheme
+        function setTheme(themeName) {
+            localStorage.setItem('theme', themeName);
+            document.documentElement.className = themeName;
+        }
+
+        // function to toggle between light and dark theme
+        function toggleTheme() {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-light');
+            } else {
+                setTheme('theme-dark');
+            }
+        }
+
+        // Immediately invoked function to set the theme on initial load
+        (function () {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-dark');
+            } else {
+                setTheme('theme-light');
+            }
+        })();
+    </script>
+    <div class="top-container">
+      <div class="about me">
+    <h1>HELLO</h1>
+    <img class="picture" src="pic.png" alt="" height="350" width="350">
+    <p class="code-skill">I'm <strong>Ritu Rani Mohapatra</strong>, currently pursuing my Bachelor's degree in VSSUT, Burla. I am a straight-forward as well as a responsible person. I like to do all my work in an orderly manner with perfection.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="middle-container">
+    <div class="interest">
+    <h2>My Interest</h2>
+    <img class="inst" src="int.png" alt="">
+  <p> My interest is in managing things smoothly. I love to explore in different fields, even I will love to explore different places across india as in for a solo trip. Interest gradually get build up as I come across some new challenges or any kind of new thing in my surrounding.Capturing the most valuable moments in life is what gives me immense happiness.</p>
+    </div>
+ <hr>
+ <div class="skills" >
+ <h2>My Skills</h2>
+ <img class="skl"src="SK!LL.png" alt="">
+ <ul>
+   <li>Blogging</li>
+   <li>Creative Thinking</li>
+   <li>Art</li>
+   <li>Decision-making</li>
+   <li>Designing</li>
+ </ul>
+   </div>
+ <hr>
+ <div class="hobbies">
+   <h2>My Hobbies</h2>
+   <img class="hbs" src="hobbi.png" alt="">
+ <ul class="hbssi">
+   <li>Cooking different varities</li>
+   <li>Listening Music</li>
+   <li>Preparing Crafts</li>
+   <li>Painting</li>
+   <li>Playing Badminton</li>
+ </ul>
+ </div>
+</div>
+<hr>
+<div class="contact-me">
+  <h2>Get In Touch</h2>
+  <a class="myButton" href="mailto:ritu199929@email.com">CONTACT ME</a>
+</div>
+<div class="bottom-container">
+<a class="fa linkd" href="https://www.linkedin.com/">LinkedIn</a>
+<a class="fa fb" href="https://www.facebook.com/">Facebook</a>
+<a class="fa insta" href="https://www.instagram.com/">Instagram</a>
+</div>
+</div>
+</div>
+  </body>
+</html>
