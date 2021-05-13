@@ -1,0 +1,171 @@
+body{
+    background: black;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-size:90px;
+
+}
+#switch{
+    border:0px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    height:3.2vw;
+    width:3.2vw;
+    font-size: 0px;
+    background: url("Resources/light.png") center;
+    background-color: white;
+
+}
+h2{
+    left:50px;
+    font-size: 70px;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+}
+ul {
+
+    justify-items: center;
+    font-size: 45px;
+    list-style: none;
+    padding: 0;
+  }
+li {
+    padding-left: 1.3em;
+  }
+li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+img{
+    margin: 50px 0px 50px 0px;
+    border-radius: 10%;
+}
+#button{
+    position: relative;
+    left: 90vw;
+    top:10%;
+}
+.main{
+    margin:0px;
+    border: 0px;
+    padding:0px;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:100vh;
+    justify-content: center;
+    justify-items: center;
+    order:1;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+a:hover{
+    animation: link 0.5s linear 1 forwards ;
+}
+@keyframes link {
+    100%{
+        color:greenyellow;
+        font-size: 50px;
+    }
+    
+}
+
+.sec{
+    top:50%;
+    left:50%;
+    margin: 20px;
+    height: 50vh;
+}
+.skills{
+    text-align: center;
+    width:100vw;
+    height: 100vh;
+
+}
+.interest{
+    margin: 50px;
+    text-align: center;
+    width:100vw;
+    height: 100vh;
+
+}
+
+.hobbies{
+    margin: 50px;
+    text-align: center;
+    width:100vw;
+    height: 100vh;
+
+}
+@media only screen and (max-width: 767px) {
+
+    .skills{
+        text-align: center;
+        width:100vw;
+        height: 1150px;
+    
+    }
+    .interest{
+        margin: 50px;
+        text-align: center;
+        width:100vw;
+        height: 900px;
+    
+    }
+    
+    .hobbies{
+        margin: 50px;
+        text-align: center;
+        width:100vw;
+        height: 100vh;
+    
+    }
+    img{
+        margin-top: 160px;
+    }
+    
+    }
+ 
+    @media only screen and (max-width: 320px) {
+
+        .skills{
+            text-align: center;
+            width:100vw;
+            height: 1150px;
+        
+        }
+        .interest{
+            margin: 50px;
+            text-align: center;
+            width:100vw;
+            height: 900px;
+        
+        }
+        
+        .hobbies{
+            margin: 50px;
+            text-align: center;
+            width:100vw;
+            height: 100vh;
+        
+        }
+        img{
+            margin-top: 160px;
+        }
+        
+        }
