@@ -16,7 +16,8 @@ h1{
     height:3.2vw;
     width:3.2vw;
     font-size: 0px;
-    background: url("Resources/light.png") center;
+    background: url("Resources/light.png") center no-repeat;
+    background-size: cover;
     background-color: white;
 
 }
