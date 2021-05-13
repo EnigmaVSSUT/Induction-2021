@@ -71,8 +71,12 @@ middle-container{
 code-skills{
   clear: left;
 }
+.skill{
+  color:#150E56;
+}
 .hbssi{
   align: right;
+color:#150E56;
 }
 .code-skill{
   width:40%;
