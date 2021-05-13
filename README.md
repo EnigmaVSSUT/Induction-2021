@@ -20,9 +20,8 @@ Second week starts with a rigorous learning of **competitive coding**. After tha
 [Practice Questions](./Competitive%20Coding/Task/Practice%20Questions/README.md) <br>
 [Resources](./Competitive%20Coding/Task/Resources)
 
-<!-- <a href="./Competitive%20Coding"><img src="https://img.shields.io/badge/on%20-Going-green"></a> -->
 
-### Week 3 (09.05.2021 to 15.05.2021)
+### Week 3 (09.05.2021 to 15.05.2021)  <a href="./Web%20Development"><img src="https://img.shields.io/badge/on%20-Going-green"></a>
 Third week will be a walk around on one of the most popular technologies of modern world, web development. You will be learning the basics of web development, the languages like **HTML, CSS, Javascript** and others to come on the way.<br>
 
 [TASK 1: Web Basics (HTML, CSS)](./Web%20Development/Task-1/) <br>
