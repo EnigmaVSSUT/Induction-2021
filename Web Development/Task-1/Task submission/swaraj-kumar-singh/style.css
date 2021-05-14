@@ -1,0 +1,155 @@
+html body {
+  background: url("background.jpg");
+
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+h1 {
+  font-size: 10mm;
+  color: red;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 7px;
+  font-family: Algerian;
+}
+
+#main{
+ width: 100%;
+ height: 10mm;
+ position: relative;
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: absolute;
+ width: 100%;
+ box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+z-index: 1;
+}
+
+.menu{
+ list-style: none;
+ display: flex;
+}
+
+.menu li a {
+  height: 2px;
+  line-height: 1px;
+  margin: 15px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 5mm;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(11, 42, 43);
+  //font-family: Constantia;
+}
+
+.menu li a:hover{
+  background-color: #23cdaf;
+  color: rgb(199, 174, 30);
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 03s;
+  }
+
+.content h2{
+ font-size: 7mm;
+ color: rgb(53, 24, 218);
+ text-align: center;
+ font-family: Castellar;
+ margin-bottom: 40px;
+ margin-top: 30px;
+}
+
+.content h3{
+ font-size: 7mm;
+ color: rgb(53, 24, 218);
+ text-align: center;
+font-family: Castellar;
+margin-bottom: 40px;
+}
+
+.content h4{
+ font-size: 7mm;
+ color: rgb(53, 24, 218);
+ text-align: center;
+font-family: Castellar;
+margin-bottom: 40px;
+}
+
+.content h5{
+ font-size: 7mm;
+ color: rgb(53, 24, 218);
+ text-align: center;
+font-family: Castellar;
+margin-bottom: 40px;
+}
+
+.footer h6{
+ font-size: 7mm;
+ color: rgb(53, 24, 218);
+ text-align: center;
+font-family: Castellar;
+margin-bottom: 40px;
+}
+
+.content p{
+ font-size: 4mm;
+ color: rgb(0, 0, 0);
+ text-align: left;
+ margin:20mm;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.content img{
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.content {
+  font-family: cursive;
+  align-items: center;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 50px;
+}
+
+.social i{
+margin: 2mm;
+color: rgb(39, 94, 196);
+font-size: 4em;
+align-items: center;
+letter-spacing: 100px;
+}
+
+social a{
+font-size: 2mm;
+}
+
+.social i:hover{
+  color: rgb(82, 33, 33);
+  transition: 0.5s;
+}
+
+.footer{
+  margin-top: 5px;
+}
+
+.content ul{
+  color: black;
+  font-size: 4mm;
+  text-align: left;
+  margin-left: 50mm;
+}
