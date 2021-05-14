@@ -96,6 +96,46 @@ footer ul{
 footer ul li{
     padding: 20px;
 }
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+ }
+ .theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+ }
+   .theme-light {
+     --color-primary: #FCD1D1;
+     --color-secondary: #fbfbfe;
+     --color-accent: #fd6f53;
+     --font-color: #000000;
+   }
+   .theme-dark {
+     --color-primary: #FCD1D1;
+     --color-secondary: #000000;
+     --color-accent: #12cdea;
+     --font-color: #ffffff;
+   }
+   .container {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     background: var(--color-secondary);
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .container button {
+     color: var(--font-color);
+     background: var(--color-primary);
+     padding: 10px 20px;
+     border: 0;
+     border-radius: 5px;
+   }
 
 
  
