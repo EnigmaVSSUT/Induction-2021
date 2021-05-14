@@ -1,0 +1,129 @@
+:root{
+  --primary-back:url("pexels-steve-johnson-1484759.jpg");
+  --secondary-color:#000000;
+  --border-color:#000000;
+  --hyperlink-color:#0040ff;
+  --h1-color:rgb(231, 61, 19);
+  --h2-color:#0000ff;
+  --border1-color:#ffff00;
+}
+.dark{
+  --primary-back: url("pexels-adrien-olichon-2387819\ \(1\).jpg");
+  --secondary-color: #e6e6e6;
+  --border-color:	#0b700b;
+  --hyperlink-color:#ffffff;
+  --h1-color:rgb(28, 236, 45);
+  --h2-color:#e100ff;
+  --border1-color:#150a55;
+}
+body{
+  background-image:var(--primary-back);
+  background-position: center;
+  background-size: cover;
+  
+}
+.container
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: left;
+}
+#img{
+  max-width: 200px;
+  max-height: 230px;
+  padding:5px;
+  border: 5px solid var(--border-color);
+  border-radius: 10px;  
+}
+.container1
+{
+  display:flex;
+  align-items:flex-start;
+  justify-content: left;
+  
+}
+#img1{
+  max-width: 240px;
+  max-height: 300px;
+  padding:5px;
+  border: 5px solid var(--border-color);
+  border-radius: 10px;
+  float: right;
+}
+.container2
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: left;
+}
+#img2{
+  max-width: 200px;
+  max-height: 150px;
+  padding:5px;
+  border: 5px solid var(--border-color);
+  border-radius: 10px;
+}
+.red
+{
+  font-size: 25px;
+  color:var(--secondary-color);
+  
+  text-align: center
+} 
+.green
+{
+  font-size: 25px;
+  color:var(--secondary-color);
+  
+  text-align: center;    
+}
+.yellow
+{
+  color:var(--secondary-color);
+  font-size:25px;
+  text-align: center;
+}
+h1
+{
+  font-size:50px;
+  text-align: center;
+  color: var(--h1-color);
+}
+h2
+{
+  font-size:40px;
+  text-align:center;
+  color:var(--h2-color);
+  border: 5px dotted green;
+}
+h3
+{
+  font-size:40px;
+  text-align:center;
+  color: aqua;
+}
+.button{
+  cursor:pointer;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 8px; 
+}
+.copy
+{
+  text-align: center;
+  font-size: 30px;
+  color:var(--hyperlink-color)
+}
+.icons{
+  font-size: 25px;
+  text-align: center;
+  color: var(--hyperlink-color) ;
+  align-items: center;
+}
+
+i
+{
+  margin-right: 20px;
+  
+}
