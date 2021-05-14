@@ -16,7 +16,7 @@
   --h2-color:#e100ff;
   --border1-color:#150a55;
 }
-html{
+body{
   background-image:var(--primary-back);
   background-position: center;
   background-size: cover;
