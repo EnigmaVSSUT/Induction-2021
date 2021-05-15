@@ -1,2 +1,1 @@
-https://github.com/om-parmar/om-parmar.githubio.git
-
+https://om-parmar.github.io/om-parmar.githubio/
