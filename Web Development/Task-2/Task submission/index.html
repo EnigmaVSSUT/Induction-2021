@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task 2</title>
+<style>
+    .disp{display: flex;}
+    body{
+          margin: 0;
+          padding: 0;
+          background-color: yellow;}
+    
+    .textc{
+        text-align: center;
+    }
+    p{
+        font-size: 30px;
+        text-align:auto;
+    }
+    li{font-size:30px;}
+	label{
+            position: absolute;
+            width: 45px;
+            height: 22px;
+            right: 20px;
+            top: 20px;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        label:before{
+            position: absolute;
+            content: '';
+            width:20px;
+            height: 20px;
+            left: 1px;
+            top: 1px;
+            border-radius: 50%;
+            background: #000;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+	label.active:before{
+            left: 24px;
+            background: #fff;
+        }
+        body.night{
+            background: #000;
+            color: #fff;
+        }
+
+</style>
+</head>
+<body>
+    <br><br> <p style="text-align: right; font-size: 20px ;">to change the theme<br>
+	<label  id="dark-change"> </label></p>
+    <h1 class="textc">WELCOME TO MY PAGE!</h1><br><br>
+    <h2 class="textc">ABOUT ME</h2>
+<div class="disp">
+    <div >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+        ANd9GcQBQ0qjyD3nlhRBlHdmgsUZKEVZBOiY0MryIQ&usqp=CAU" alt="simpson">
+    </div>
+    <p>I'm Prachi Suman, currently pursuing information technology
+        in VSSUT. I am a fun loving person and I am good at accepting different
+        people and their personalities. I like putting time on solving logical 
+        problems and so I like solving anagrams and puzzles when I am free.</p>
+</div>
+    <h2 class="textc">MY INTERESTS</h2>
+<div class="disp">
+    <p>As in interests I have many, also I tend to do everything I like , like
+        I like marvel movies, also dc movies. I like making deserts and smoothies for myself.
+        I like reading books casually. </p>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+        ANd9GcQBQ0qjyD3nlhRBlHdmgsUZKEVZBOiY0MryIQ&usqp=CAU" alt="simpson">
+    </div>
+</div>
+    <h2 class="textc">MY SKILLS</h2>
+<div class="disp">
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+    ANd9GcQBQ0qjyD3nlhRBlHdmgsUZKEVZBOiY0MryIQ&usqp=CAU" alt="simpson">
+    </div>
+    <p>I'm learning various coding languages.Also I'm learning HTML and 
+        CSS.</p>
+</div>
+    <h2 class="textc">LIST OF MY HOBBIES</h2>
+<div class="disp">
+    <p>I like <ul>
+        <li>painting</li>
+        <li>reading books and manga</li>
+        <li>watching action movies and animes</li>
+        <li>listening to song covers</li>
+        <li>traveling</li>
+        </ul>                              </p>
+    <div>
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+        ANd9GcQBQ0qjyD3nlhRBlHdmgsUZKEVZBOiY0MryIQ&usqp=CAU" alt="simpson">
+    </div>
+</div>
+    <h3 class="textc">for further information contact me through--<br>
+    <a href="https://www.linkedin.com/in/prachi-suman-903bb3202/">linkedin</a>
+    <a href="https://github.com/slothracing">github</a></h3>
+	<script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+</body>
+<footer class="textc">copyright @PRACHI SUMAN 2021</footer>
+</html>
