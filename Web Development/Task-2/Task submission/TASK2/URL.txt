@@ -1,3 +1,0 @@
-URL="https://rajat-gith.github.io/WEB-3/"
-maintain aspect ratio as 100%
-or switch to desktop mode
