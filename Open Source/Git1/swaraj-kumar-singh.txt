@@ -3,4 +3,5 @@ ETC I 1st year
 2002070146
 I am Swaraj i am from Sambalpur
 i love coding and play volleyball.
-I am into C,C++ programming language.
+I am into C,C++ programming language and ames.
+I am into C,C++ programming language and love to do frontend development with use of html and css.
