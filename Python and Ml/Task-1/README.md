@@ -12,7 +12,7 @@
    <br>
    d) Write a python to program to sort words in albhabetically order.
    <br>
-   e) Write a python program to generate 10 random numbers and print their sum.
+   e) Write a python program to generate 10 random numbers and print their sum.<br>
    <br>
 4.You have to create a folder on your name inside the submission folder where you have to submit your code files.
 5.For creating your solutions files you will be using [Juypyter Notebook](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo).
