@@ -1,0 +1,26 @@
+html{
+
+    background: url(https://wallpaperaccess.com/full/2028898.jpg);
+}
+.prof-box {
+    width: 600px;
+    height: 1000px;
+    padding: 40px;
+    background:url(https://wallpaperaccess.com/full/340599.jpg);
+    color: teal;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+
+}
+h3{
+    color: wheat;
+}
+h1{
+    color: yellow;
+}
+p{
+    color: turquoise;
+}
