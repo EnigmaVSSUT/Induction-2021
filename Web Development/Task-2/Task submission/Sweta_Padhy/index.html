@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEBPAGE</title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <style>
+        body {
+             background-image: url("image.jpg");
+             background-attachment: fixed;
+             background-repeat: no-repeat;
+             background-size: cover;
+        }
+        .header {
+            background-color: rgb(138, 96, 76);
+            font-family: Georgia, 'Times New Roman', Times, serif ;
+            padding: 30px;
+            text-align: center;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        img {
+            float: right;
+        }
+        .theme-light {
+            --color-primary: #0060df;
+            --color-secondary: #f8c8c8;
+            --color-accent: #fd6f53;
+            --font-color: #000000;
+        }
+        .theme-dark {
+            --color-primary: #17ed90;
+            --color-secondary: #0f1111;
+            --color-accent: #12cdea;
+            --font-color: #ffffff;
+        }
+        .container {
+            display: flex;
+        
+            background: var(--color-secondary);
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+        .container button {
+            color: var(--font-color);
+            background: var(--color-primary);
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+  <div class="header">
+      <h1>WELCOME TO MY PAGE &#128522</h1>
+  </div>
+  <div>
+   <h2 style="text-align: center; color: rgb(95, 36, 36);">ABOUT ME</h2>
+   <p style="background-color:rgb(138, 96, 76); margin-left: 150px; margin-right: 150px; font-size: x-large;padding: 70px;"><img src="image.jpg" style="width: 170px;height: 170px;">I am Sweta Padhy, originally hailing from Berhampur, Ganjam,Odisha. I am currently pursuing my BTech degree in Computer Science and Engineering from Veer Surendra Sai University of Technology, Burla in 1st year. I like to take up challenges and always try to accept both success and failure in a balanced way to move forward. I believe in myself, the work I do, and I want fulfilment in everything.</p></div>
+   <div>
+   <h2 style="text-align: center; color: rgb(95, 36, 36);">MY INTERESTS</h2>
+   <p style="background-color:rgb(138, 96, 76); margin-left: 150px; margin-right: 150px; font-size: x-large;padding: 70px;">Being a self motivated and disciplined soul, I'm always keen to up-skill myself by learning new things whenever I get a chance. I want to do internships or projects on my domain from different companies to gain experience. My long term goal is by gaining work experience of 7-8 years in the field of software engineer. I wish to work on a senior position, contributing to the betterment of my workplace.</p></div>
+   <div>
+    <h2 style="text-align: center; color: rgb(95, 36, 36);">MY SKILLS</h2>
+ <p style="background-color:rgb(138, 96, 76); margin-left: 150px; margin-right: 150px; font-size: x-large;padding: 70px;">As creativity is key to solving problems and creating functional, good looking web programs and websites, I'd like to express it as my skill rather than ignoring it. I've good communication skills which is vital in job sectors. Besides this time management is my strength. Apart from this soft skills I have familiar with programming languages like C and JAVA. Now I'm learning web development as it is my passion.</p>
+   </div>
+<div>
+    <h2 style="text-align: center; color: rgb(95, 36, 36);">MY HOBBIES</h2>
+    <div style="background-color:rgb(138, 96, 76); margin-left: 150px; margin-right: 150px; text-align: center;padding: 30px;">
+<ul style="font-size: x-large; list-style-type: none;"> 
+<li>Pencil sketching</li>
+<li>Gardening</li>
+<li>Listening music</li></ul>
+</div>
+</div>
+<button id="switch" onclick="toggleTheme()">Switch</button>
+</div>
+<script>
+    function setTheme(themeName)
+    {
+        localStorage.setItem('theme', themeName);
+        document.documentElement.className = themeName;
+    }
+    function toggleTheme()
+    {
+        if(localStorage.getItem('theme') === 'theme-dark')
+        {
+            setTheme('theme-light');
+        }
+        else {
+            setTheme('theme-dark');
+        }
+    }
+    ( function () {
+      if(localStorage.getItem('theme') === 'theme-dark')
+        {
+            setTheme('theme-dark');
+        }
+        else {
+            setTheme('theme-light');
+        }  
+    })();
+</script>
+</body>
+</html>
