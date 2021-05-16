@@ -1,0 +1,244 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0); 
+}
+
+.box {
+    position: absolute;
+    background-image: url('https://source.unsplash.com/1920x1080/?gaming,hackers,darkweb,technology,linux,hack,cybercrime');
+    height: 96vh;
+    width: 187vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.box1{
+    position: absolute;
+    background: rgba(102, 94, 94, 0.884);
+    height: 96vh;
+    width: 187vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+
+
+.main{
+    position: absolute;
+    background: rgb(252, 0, 0);
+    height: 97vh;
+    width: 188vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.main:before,
+.main:after{
+    
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    border-radius: 10px;
+    animation: animate 20s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.main:after {
+
+    filter: blur(10px);
+
+}
+
+
+ .label1 {
+     position: absolute;
+     font-family: custom;
+     letter-spacing: 2px;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -500%);
+     font-size: 70px;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.493);
+
+ }
+
+
+.label2{
+   position: absolute;
+   background: rgba(255, 255, 255, 0);
+   height: 20vh;
+   width: 100vh;
+   top: 50%;
+   left: 50%;
+   transform: translate(-70%, -150%);
+   border-radius: 10px;
+   
+}
+.label3 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    height: 15vh;
+    width: 100vh;
+    top: 55%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+    border-radius: 10px;
+    
+}
+.label4 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    height: 15vh;
+    width: 100vh;
+    top: 75%;
+    left: 50%;
+    transform: translate(-70%, -40%);
+    border-radius: 10px;
+}
+
+
+
+@font-face{
+    font-family: custom;
+    src: url('fonts/font2.ttf');
+}
+
+@font-face {
+    font-family: custom2;
+    src: url('fonts/font1.ttf');
+}
+
+.fir{
+    
+    
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    
+    
+}
+
+.sec{
+
+
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: end;
+
+
+}
+
+.third{
+
+
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.profile{
+    max-height: 150px;
+    border-radius: 10px;
+    float: left;
+}
+
+.skill{
+    max-height: 80px;
+    border-radius: 10px;
+    float: right;
+}
+
+.interest {
+    max-height: 90px;
+    border-radius: 10px;
+    float: left;
+}
+
+.about{
+     position: absolute;
+     font-family: custom2;
+     font-weight: 500px;
+     top: 0%;
+     left: 6%;
+     transform: translate(-39%, -120%);
+     font-size: 40px;
+     color: rgb(0, 0, 0);
+}
+
+.skills{
+      position: absolute;
+      font-family: custom2;
+      font-weight: 500px;
+      top:5%;
+      left: 70%;
+      transform: translate(-0%, -110%);
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+}
+
+.int{
+       position: absolute;
+       font-family: custom2;
+       font-weight: 500px;
+       top:8%;
+       left: 6%;
+       transform: translate(-20%, -110%);
+       font-size: 40px;
+       color: rgb(0, 0, 0);
+}
+
+.footer{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -100%);
+}
+
+.info{
+    text-align: center;
+    color: white;
+    margin-bottom: 1%;
+}
+
+li{
+    font-weight: 400;
+    font-size: 17px;
+}
