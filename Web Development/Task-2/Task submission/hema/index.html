@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body ><div class="container">
+    
+    <button id="switch" onclick="toggleTheme()">Switch</button>
+</div>
+<script>
+    // function to set a given theme/color-scheme
+    function setTheme(themeName) {
+        localStorage.setItem('theme', themeName);
+        document.documentElement.className = themeName;
+    }
+
+    // function to toggle between light and dark theme
+    function toggleTheme() {
+        if (localStorage.getItem('theme') === 'theme-dark') {
+            setTheme('theme-light');
+        } else {
+            setTheme('theme-dark');
+        }
+    }
+
+    // Immediately invoked function to set the theme on initial load
+    (function () {
+        if (localStorage.getItem('theme') === 'theme-dark') {
+            setTheme('theme-dark');
+        } else {
+            setTheme('theme-light');
+        }
+    })();
+</script>
+    
+   <div class="prof-box">
+       <img src="my logo.jpg" height="150px";width="150px" alt="error">
+       <h1>Hello Everyone </h1>
+       <img src="" alt="">
+       <p>
+       I am Hemadri Tanaya Satpathy. <br>
+       A curious student, persuing bachelor's in technology in computer science and engineering from Veer Surendra Sai Univwesity of technology,Burla
+      <br>
+      <h3>My Interests</h3>
+         1.Mathematics <br>
+         2.Web development <br>
+         3.Machine learning <br>
+        <h3>My Skills</h3>
+        1.Handy knowledge in C.<br>
+        2.Graphic designing.<br>
+        <h3>My Hobbies</h3>
+        1.Cooking <br>
+        2.Playing badminton <br>
+        3.Playing Chess <br>
+       </p>>
+       <div class="social"></div>
+    
+       <h3>For more information, contact me at</h3>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a  href="https://www.instagram.com/invites/contact/?i=13zmb7gbdm0yq&utm_content=kkp81rl" class="fa fa-instagram" target="_blank"></a>
+        <a  href="https://www.linkedin.com/in/hemadri-tanaya-satpathy-2b6a85204" class="fa fa-linkedin" target="_blank"></a>
+        
+
+        <p id="last">! Copyright Hemadri 2021 !</p>
+   </div>
+
+</body>
+</html>
