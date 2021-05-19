@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my page!</h1>
+        <label id="icon"></label>
+    </header>
+    <div class="card" id="content">
+        <img src="anweshita.jpg">
+    <span>
+        <h2>ABOUT ME</h2>
+        <p class="text">
+            Hello everyone!!I am Anweshita mohanty.I live in rourkela.
+            Currently I am pursuing my Bachelor's of Technology degree
+             from the Department of Electricals and Electronics Engineering
+              at VSSUT,Burla.
+        </p>
+        <h2>INTERESTS</h2>
+        <p class="text">
+            I am interested to learn more about HTML and CSS
+            and create various kind of webpages.I also have
+            interests to learn other programming languages
+            and to make projects on it.</p>
+        <h2>HOBBIES</h2>
+        <p class="text">
+            My hobby is painting,listening to music 
+            and watching movies.
+        </p>
+    </span>
+    </div>
+    
+    <footer>
+        <nav class="footer">
+            <p>For further information you can contact me!</p>
+               <p>
+                   <a href="https://www.linkedin.com/in/anweshita-mohanty-063800204">LinkedIn</a>|
+                   <a href="https://github.com/Anweshita44">Github</a>
+                </p>
+        
+            <p>Thankyou!!</p>
+         </nav>
+    </footer>
+    <script>
+        var body1 = document.getElementsByTagName('body')[0];
+        var icon = document.getElementById("icon");
+        var card = document.getElementById("content");
+        var text1 = document.getElementsByClassName("text")[0];
+        var text2 = document.getElementsByClassName("text")[1];
+        var text3 = document.getElementsByClassName("text")[2];
+        var footer= document.getElementsByClassName("footer")[0];
+        icon.addEventListener('click',function(){
+            icon.classList.toggle("dark");
+            body1.classList.toggle("dark1");
+            card.classList.toggle("dark2");
+            text1.classList.toggle("dark3");
+            text2.classList.toggle("dark3");
+            text3.classList.toggle("dark3");
+            footer.classList.toggle("dark4");
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title >
+            RADIOACTIVE PAGE
+        </title>
+        <link ref="icon" href="img/icon.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <h1 id="head">WELCOME TO MY PAGE!!</h1>
+        <style>
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        </style>
+    </head>
+    <body class="body">
+        <nav id="navbar">
+            <ul>
+                <div class="toogle">
+                    <div class="dropdown">
+                    <div class="dropbtn menu">
+                        <i class="blog-list fa fa-bars" style="font-size: 30px;"></i>
+                    </div>
+                    </div>
+                    <l1 class="navList"><a href="#top">Home</a></l1>
+                    <l1 class="navList"><a href="#" target="_blank">Gallery</a></l1>
+                    <li class="dropdown navList">
+                        <div class="navList dropbtn">Blogs<i class="fa fa-caret-down"></i></div>
+                        <div class="blog-list">
+                            <a href="Blog-1/Blog-1.html" target="_blank">Blog-1</a>
+                            <a href="#">Blog-2</a>
+                            <a href="#">Blog-3</a>
+                        </div>
+                    </li>
+                    <l1 class="navList"><a href="#contact">Contact</a></l1>
+                </div>
+            </ul>
+            <div>
+              <button onclick="myFunction()"><i class=" button fa fa-sun-o" ><br>THEME SWITCH</i></button>
+            </div>
+        </nav>
+        <div class="div">
+            <h2 class="topic">About Me</h2>
+            <img src="img/1.jpg" alt="Lalit's Photo" id="myImage">
+            <p id="about"><strong>Hello everyone!<br>I am Lalit Kumar. I live in Cuttack , Odisha. I am currently pursing B.Tech
+                in Computer Science and Engineering from Veer Surendra Sai University of Technology , Burla.
+            </strong> 
+            </p>
+        </div>
+        <br>
+        <div class="div">
+            <h2 class="topic">My Interest</h2>
+            <div id="interest">
+            <img src="img/4.png" alt="stock market">
+            <p id="interest"><b>I am interested in many domains across different streams. Like I am interested in latest technological advancements 
+                and also interested in stock market , trading and management. Political analysis and realted works interest me a lot.</b>
+            </p>
+            </div>
+        </div>
+        <br>
+        <div class="div">
+            <div id="skills">
+            <h2 class="topic">My Skills</h2>
+            <img src="img/3.png" alt="Skills">
+            <div><b>
+                
+                    <i class="fa fa-thumbs-up"></i>  Experienced in C and C++<br>
+                    <i class="fa fa-thumbs-up"></i>  Basics of front-end developement<br>
+                    <i class="fa fa-thumbs-up"></i>  Basics of python and XML<br>
+                
+            </b></div>
+        </div>
+        </div>
+        <br>
+        <div class="div">
+            <div id="hobbie">
+            <h2 class="topic">List Of Hobbies</h2>
+            <img src="img/5.png" alt="Hobbies icon">
+               <p><b>
+                    <li>Play Tabla and Drums</li>
+                    <li>Watch Series and Movies</li>
+                    <li>Coding</li>
+                    <li>Playing with my pet</li>
+                </b>
+                </p>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+    <hr>
+    <footer class="footer" id="contact">
+        <p>For further information you can contact me!</p>
+        <div class="last">
+            <p class="side1"><a href="https://instagram.com/radioactive_lalit?igshid=le4yw5uksioe" target="_blank"><i class="fa fa-instagram" style="font-size:30px;"></i></a></p>
+            <p class="side2"><a href="https://www.linkedin.com/in/lalit-k-2001/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px"></i></a></p>
+            <p class="side3"><a href="https://twitter.com/Klalit2000" target="_blank"><i class="fa fa-twitter-square" style="font-size: 30px;"></i></a></p>
+        </div>
+            <p>&copy;Copyright Lalit Kumar 2021. </p>
+        <a href="#top" ><i class="fa fa-toggle-up" style="font-size: 50px;display: inline-block;"></i></a>
+    </footer>
+</html>
