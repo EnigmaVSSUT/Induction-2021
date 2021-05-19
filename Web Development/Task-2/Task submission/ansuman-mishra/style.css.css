@@ -1,0 +1,141 @@
+
+p{
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+html{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(8, 216, 231);
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    
+}
+h1{
+    color: rgb(5, 224, 71);
+  font-family: fantasy;
+}
+
+.last li a{
+    padding: 5px 5px;
+    margin: center;
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    right: 30px;
+}
+.div4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px,20px;
+}
+.pic1{
+ padding-left: 500px;
+    width: 70px;
+    position: relative;
+    top: 110px;
+    right: 20px;
+}
+.div0{
+    
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+    transform: translateX(-10%);
+}
+.pic2{
+    padding-left: 500px;
+    position: relative;
+    bottom: 40px;
+}
+.div1{
+    position: relative;
+    bottom: 200px;
+    right: 80px;
+}
+.pic3{
+    padding-left: 500px;
+    position: relative;
+    bottom: 130px;
+}
+.div2{
+    position: relative;
+    bottom: 270px;
+    right: 80px;
+}
+.pic4{
+    position: relative;
+    bottom: 200px;
+    left: 250px;
+}
+.div3{
+    position: relative;
+    bottom: 330px;
+    right: 80px;
+}
+.div4{
+    position: relative;
+   bottom: 90px;
+    color: rgb(15, 255, 7);
+    right: 60px;
+}
+.links{
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+}
+.last{
+    position: relative;
+    top: 50px;
+    bottom: 250px;
+    right: 20px;
+    color: rgb(44, 240, 4);
+}
+{
+    box-sizing: border-box;
+}
+.label {
+    background-color: rgb(83, 211, 9);
+    display: flex;
+    border-radius: 40px;
+    height: 30px;
+    width: 55px;
+    justify-content: space-between;
+
+}
+
+.ball {
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    top: 2.5px;
+    left: 1px;
+    transition: transform 0.1s linear;
+    
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(30px);
+}
+.theme{
+    position: relative;
+    bottom: 1200px;
+    left: 40px;
+}
+.dark {
+    background-image: url(sbg.jpg);
+}
+.dark p {
+    color: rgb(248, 29, 14);
+}
+
+
+
+

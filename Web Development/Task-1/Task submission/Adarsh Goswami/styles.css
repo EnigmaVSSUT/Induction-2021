@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+    font-family: 'Montserrat';
+
+    display: grid;
+    
+    --bg: #fcfcfc;
+    --bg-panel: #ebebeb;
+    --color-headings: #0077ff;
+    --color-text: #333333; 
+}
+
+html[data-theme='dark'] {    
+    --bg: #333333;
+    --bg-panel: #434343;
+    --color-headings: #0077ff;
+    --color-text: #B5B5B5; 
+}
+
+body {
+    background-color: var(--bg);
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 3em;
+    color: var(--color-headings);
+}
+
+h2{
+    color: var(--color-headings);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--color-headings);
+}
+
+h4 {
+    padding: 4em;
+    text-align: center;
+    color: var(--color-headings);
+}
+
+p{
+    color: var(--color-text);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: var(--bg-panel);
+    margin: 3em;
+    padding: 3em;
+    border-radius: 15px;
+}
+
+.my_interests {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.my_hobbies {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+    content: "";
+    clear: both;
+    display: table;
+    color: var(--color-text);
+}
+
+.my_photo {
+    float: right;
+    margin: 15px 15px 15px 15px;
+}
+
+.interest_photo {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.about_me {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.my_skills {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social {
+    text-align: center;
+    padding-right: 2em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.button_custom {
+    background-color: var(--color-headings);
+    padding: 1em;
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    color: var(--bg);
+}

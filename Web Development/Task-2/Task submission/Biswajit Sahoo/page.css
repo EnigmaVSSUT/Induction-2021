@@ -1,0 +1,85 @@
+body {
+    margin: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* background-color: #0892D0; */
+    background-image: url(universe-1800259__340.webp);
+}
+
+#design {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+#box {
+    background-color: #FFFFFF;
+    background-image: url(background-2426328__340.webp);
+    border: 3px;
+    border-color: white;
+    box-shadow: 5px 3px rgb(196, 194, 199);
+    padding: 3px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+img {
+    float: right;
+    margin: 2px;
+}
+
+p,
+li {
+    text-align: justify;
+    font-size: 19px;
+    color: black;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#no {
+    border-radius: 5px;
+    padding: auto;
+}
+
+.button {
+    padding: auto;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+}
+body.theme{
+    background-image: url(unsplash.jpg);
+    background-size: cover;
+}
+
+.me:hover,.me:focus{
+    transform: scale(1.1);
+}
+.me{
+    width: 180px;
+    height: 30px;
+    margin-bottom: 2%;
+    border: solid 3px;
+    border-color: cyan;
+    background-color:darkblue;
+    text-align: center;
+    cursor: pointer;
+    color:beige;
+    font-size: 17px;
+    padding: 3px;
+}

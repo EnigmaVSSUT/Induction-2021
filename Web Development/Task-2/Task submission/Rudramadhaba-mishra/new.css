@@ -1,0 +1,31 @@
+body{
+    background:black;
+    font-size:x-large ;
+}
+h1{
+   color:whitesmoke;
+   text-align: center;
+   font-family:'Oswald', sans-serif;
+   font-weight: 600;
+ }
+div{position: relative;
+    background-image: url("pic/photu2.jpg");
+    margin: 100px;
+    padding: 20px;
+}
+h2{
+    color: rgb(45, 3, 94);
+    text-decoration: underline;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+}
+p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position:inside;
+    list-style-type:circle;
+}

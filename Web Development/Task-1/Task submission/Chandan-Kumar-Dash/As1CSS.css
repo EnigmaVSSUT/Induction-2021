@@ -1,0 +1,131 @@
+h1{
+    text-align: center;
+    height: 30px;
+    width: 600px;
+    background-color: rgba(4, 213, 255, 0.322);
+
+    font-style:inherit;
+    border: rgba(27, 23, 65, 0.438) solid 2px;
+    padding: 30px;
+    margin-left: 400px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#abouth{
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    border: solid 5px brown;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+#abto{
+    display: flex;
+    justify-content: space-between;
+}
+#inter{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#ski{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#hby
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#about{
+    font-style: italic;
+    height:300px;
+    width: 600px;
+    font-size: x-large;
+     margin-left: 80px; 
+    text-align: center;
+    margin-bottom: 10px;
+    border: rgb(18, 167, 62) solid 5px;
+    background-color: rgba(0, 255, 255, 0.411);
+    border-radius: 20px;
+}
+#interesth{
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    border: solid 5px brown;
+    margin-left: 650px;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+#interest{
+    font-style: italic;
+    height:220px;
+    width: 600px;
+    font-size: x-large;
+    margin-right: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: rgb(18, 167, 62) solid 5px;
+    background-color: rgba(0, 255, 255, 0.411);
+    border-radius: 20px;
+}
+#skillh{
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    border: solid 5px brown;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+#skills{
+    font-style: italic;
+    height:150px;
+    width: 600px;
+    font-size: x-large;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: rgb(18, 167, 62) solid 5px;
+    background-color: rgba(0, 255, 255, 0.411);
+    border-radius: 20px;
+}
+#hobbyh{
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    border: solid 5px brown;
+    border-radius: 50px;
+    margin-left: 650px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+#hobby{
+    font-style: italic;
+    height:170px;
+    width: 560px;
+    font-size: x-large;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    border: rgb(18, 167, 62) solid 5px;
+    background-color: rgba(0, 255, 255, 0.411); 
+    border-radius: 20px;
+}
+ #abt{
+    margin-right: 50px;
+    margin-bottom: 75px;
+
+} 
+#int{
+    margin-left: 50px;
+    margin-bottom: 75px;
+}
+#skil{
+    margin-right: 50px;
+    margin-bottom: 75px ;
+}
+#hoby{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}

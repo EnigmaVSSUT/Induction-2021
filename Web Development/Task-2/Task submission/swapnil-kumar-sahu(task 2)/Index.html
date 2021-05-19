@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First step to Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navtag">
+            <label id="dark-change"></label>
+            <img class="logo" src="img/l.png" alt="opps">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function () {
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+    <main>
+        <div class="content">
+            <h3>About Me</h3><br>
+            <img src="img/Snapchat-314959173.jpg" alt="error" height="400px">
+            <p>Currently I am a 20 year old undergrad at VSSUT,Burla pursuing degree of Computer Science and Engineering.
+                I live in a small town from Damanjodi, Koraput which is southern most district of Odisha. I have
+                completed my matriculation from Delhi Public School, Damanjodi and my intermediate from DAV Public
+                School, Pokhariput. I spend my time with my pet Bruno who is Golden Retriever. I am a open hearted
+                person so any one can be a friend of but also I'm committed :P .
+
+            </p><br>
+            <h3>My Intersets</h3><br>
+            <p>
+            <ul>
+                <li>Competitive Programming</li>
+                <li>Open Source Contribution</li>
+                <li>Aritficial Intelligence and Machine learning</li>
+                <li>Cryptocurrency and Cybersecurity</li>
+            </ul>
+            </p><br>
+            <h3>My skills</h3><br>
+            <p>
+            <ul>
+                <li>Proficient in Data Structures and Algorithms in C++</li>
+                <li>Beginner @ Front-end Development </li>
+                <li>Coder @ Codechef, Codeforces, Spoj.</li>
+                <li>Touch Typing(10 fingers fast typing)</li>
+            </ul>
+            </p><br>
+            <h3>My Hobbies</h3><br>
+            <p>
+            <ul>
+                <li>Cooking</li>
+                <li>Listening Music</li>
+                <li>Binge Watching Web Series @ Netflix</li>
+                <li>Coding for my improvement</li>
+            </ul>
+            </p><br>
+        </div>
+    </main>
+    <footer>
+        <p class="last">Copyright&copy All rights are Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
