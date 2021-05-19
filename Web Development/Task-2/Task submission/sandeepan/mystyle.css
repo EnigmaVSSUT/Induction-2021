@@ -1,0 +1,76 @@
+:root{
+    --bg: url(blue.jpg);
+}
+
+.red{
+    --bg:url(red.jpg);
+}
+
+body{
+    background: var(--bg) no-repeat center fixed;
+    background-size: cover ;
+    padding: 5px;
+    color:white;
+}
+
+.heading1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    height:50px;
+    padding:12px;
+}
+
+.contentSection{
+    font-size:25px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 15px;
+    width:750px;
+    
+}
+
+.imgRight{
+    width:fit-content;
+    height: fit-content;
+    float: right;
+}
+
+
+.end{
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    width: auto ;
+    height:50px;
+}
+
+.extra{
+    font-size: 50px;
+    border:5px solid white;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    float:right;
+    width:400px;
+    padding:5px;
+    clear: left;
+}
+
+.extra:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.button{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 8px; 
+}
+
+
+#last{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: var(--c-color);
+  }

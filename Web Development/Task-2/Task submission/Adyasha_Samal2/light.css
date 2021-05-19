@@ -1,0 +1,9 @@
+body{
+    background-image:url('https://www.treehugger.com/thmb/KthkKb-oAb4OIQ8M_y__JP7jb_o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__04__steve-aurora-ribbon-e51b55397daf4b928744bd076823c1cf.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    color:rgb(47, 0, 255)
+}
