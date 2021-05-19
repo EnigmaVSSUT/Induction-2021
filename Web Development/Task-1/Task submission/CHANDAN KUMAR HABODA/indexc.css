@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(17, 9, 54);
+    color: #21a65d;
+    font-size: initial;
+    background-image: uRl(a85.jpg);
+    background-attachment: scroll;
+}
+h1{
+  
+    color: hsl(180, 25%, 50%);
+}
+h2{
+    color:rgb(200, 233, 233);
+    text-shadow: 5px 2px 4px rgba(60, 100, 138, 0.322);
+}
+div.CONTENT{
+   text-align: justify;
+   border-style: inset;
+   border-color: lightcoral;
+   padding:10px;
+   border-width:2px;
+}
+ul.skill{
+    list-style-type:square
+}
+p{
+    font-family:cursive;
+}

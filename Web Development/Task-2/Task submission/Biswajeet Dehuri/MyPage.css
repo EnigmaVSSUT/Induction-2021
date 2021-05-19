@@ -1,0 +1,159 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bodydark{
+    background-image: url(4.jpg);
+}
+.bodydark p{
+ 
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.bodydark .name{
+    padding: 5px 20px;
+    text-decoration-color:white;
+    color: black;
+    border: 1px solid black;
+}
+.bodydark .c{
+    color: black;
+    font-size: 20px;
+}
+.bodydark .Home{
+    color: black;
+    font-size:40px;
+    padding-left: 30px;
+}
+.bodydark #title{
+    color: rgb(48, 15, 90);
+}
+
+.div1{
+    float: right;
+    
+}
+.n{
+    display: inline;
+}
+.name{
+    padding: 5px 20px;
+    text-decoration-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.name:hover{background-color: white;
+    color: black;
+    }
+#logo img{
+    float: left;
+    width: 150px;
+    height: 140px;
+    padding: auto;
+    margin-right: 10px;
+    position: relative;
+}
+.main{
+    padding: 20px;
+    height: 100px;
+    
+}
+.trans{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding-bottom: 35px;
+    width:100%;
+    
+}
+#title{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(138, 127, 170);
+    font-family:sans-serif;
+    /* text-shadow: 0px 5px 10px rgba(0,0,0,1); */
+    /* mix-blend-mode: overlay; */
+    text-transform: uppercase;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0,1);
+    background:rgba(108, 122, 137, 1); */
+}
+#cf{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+.text1{
+    position: relative;
+    height: 350px;
+    width: 715px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    padding: 20px;
+    float: right;
+    /* border: 1px solid white; */
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+    
+.Home{
+    color: white;
+    font-size:40px;
+    padding-left: 30px;
+}
+.text2{
+    position: relative;
+    height: 350px;
+    width: 710px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    padding: 20px;
+    float: left;
+    /* border: 1px solid white; */
+}
+.bodydark #title1{
+    color: black;
+    text-align: center;
+}
+
+
+#title1{
+    color: white;
+    text-align: center;
+}
+
+.c{
+    color: white;
+    font-size: 20px;
+}
+.last{
+    position: relative;
+    max-height: 350px;
+    width: 1480px;
+    padding: 10px ;
+    float: right;
+}
+.last1{
+    text-align: center;
+    
+}
+.d{
+    display: inline;
+    padding: 15px;
+}
+.j{
+    text-align: center;
+}
+
+
+
+
+

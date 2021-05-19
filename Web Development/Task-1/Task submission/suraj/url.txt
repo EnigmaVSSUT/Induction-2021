@@ -1,0 +1,4 @@
+url: https://suraj052.github.io/website/
+
+Note: Desktop :Keep your screen size to be 100%
+      Mobile :Set into desktop mode and rotate your phone 
