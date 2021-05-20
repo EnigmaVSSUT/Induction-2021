@@ -1,0 +1,194 @@
+body{
+  text-align:  center;
+font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+#grad1{
+  background-image: linear-gradient(#B0EFEB, #FCD1D1);
+  background-size: cover;
+}
+h1{
+  font-size: 3.5em;
+  margin-top: 0;
+  color: #630000;
+font-family: 'Great Vibes', cursive;
+padding-top: 20px;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 40px auto;
+}
+.picture{
+  padding-bottom: 20px;
+}
+h2{
+  font-size: 2.25em;
+  color: #630000;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+    color:#150E56;
+    letter-spacing: normal;
+    padding-top: 20px;
+}
+middle-container{
+
+}
+.interest{
+  width: 50%;
+  margin-top: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills{
+  width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.hobbies{
+  width: 50%;
+    text-align: left;
+    line-height: 2;
+    margin-right: 20px;
+}
+.inst{
+  width: 25%;
+  float: left;
+}
+.skl{
+  width:25%;
+  float: left;
+  margin-right: 10px;
+}
+.hbs{
+  width: 18%;
+  float: left;
+  margin-right: 65px;
+}
+code-skills{
+  clear: left;
+}
+.skill{
+  color:#150E56;
+}
+.hbssi{
+  align: right;
+color:#150E56;
+}
+.code-skill{
+  width:40%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.contact-me{
+  margin: 40px auto 40px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #000000 70%, #FCD1D1 %);
+	background-color:#000000;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #FCD1D1 5%, #000000 100%);
+	background-color:#FCD1D1;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  padding: 0px 0px 30px;
+}
+a{
+  color: #FCD1D1;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.linkd{
+  background: #000000;
+  color: white;
+  padding-left: 10px;
+}
+.fb{
+  background: #000000;
+  color: white;
+  padding-left: 10px;
+}
+.insta{
+  background: #000000;
+ color: white;
+padding-left: 10px
+}
+.theme-light {
+   --color-primary: #0060df;
+   --color-secondary: #fbfbfe;
+   --color-accent: #fd6f53;
+   --font-color: #000000;
+}
+.theme-dark {
+   --color-primary: #17ed90;
+   --color-secondary: #243133;
+   --color-accent: #12cdea;
+   --font-color: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .theme-light {
+    --color-primary: #FCD1D1;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+  }
+  .theme-dark {
+    --color-primary: #FCD1D1;
+    --color-secondary: #000000;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--color-secondary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container button {
+    color: var(--font-color);
+    background: var(--color-primary);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+  }

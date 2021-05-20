@@ -1,0 +1,46 @@
+body{
+    background: black;
+    font-size:x-large ;
+    height: 100%;
+}
+.light-mode{
+    background-color: coral;
+}
+h1{
+   color:whitesmoke;
+   text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 600;
+ }
+div{position: relative;
+    background: rgb(248, 248, 192);
+    margin: 100px;
+    padding: 20px;
+}
+h2{
+    color: rgb(218, 4, 200);
+    text-decoration: underline;
+    text-align: left;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position:inside;
+    list-style-type:circle;
+}
+button{
+    background-color: rgb(248, 248, 192);
+    border: outset;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+}
+

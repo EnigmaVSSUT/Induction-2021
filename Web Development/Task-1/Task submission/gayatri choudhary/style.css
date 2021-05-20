@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.me img{
+    width: 33%;
+    border: 3px whitesmoke;
+    border-radius: 50px;
+
+}
+
+.navbar{
+    display: flex;
+    
+    
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style:none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration:none;
+    color: cornsilk;
+
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+
+
+.rightNav{
+    background-color:black;
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('cover.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:burlywood;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    color:none;
+    flex-direction: column;
+    justify-content:center;
+}
+
+div {
+    
+    row-gap: 5px;
+  }
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+    font-size: 30px;
+
+}
+
+.text-small{
+    font-size: 14px;
+    color:coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    
+    
+    cursor: pointer;
+
+}
+
+.midlast{
+    display: flex;
+    width: 100%;
+    background-color:black;
+    align-items: center;
+    margin: center;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+div {
+    
+    row-gap: 5px;
+  }
+
+.last{
+    display: flex;
+    width: 100%;
+    background-color:black;
+    align-items: center;
+    margin: center;
+    cursor: pointer;
+    
+    justify-content:center;
+    
+
+}
+
+.last li{
+    list-style: none;
+    padding: 26px 15px;
+    margin: center;
+    
+}
+
+.last li a{
+    color:whitesmoke;
+}
+
+.last li a:hover{
+    color:gray;
+}
+
+.lastline{
+    display: flex;
+    width: 100%;
+    background-color:black;
+    align-items: center;
+    margin: center;
+    justify-content:center;
+
+}
+
+
+
+
