@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     font-family: sans-serif;
+    color:rgb(0, 63, 236);
+    background-image: url("darktheme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+    font-size: 29px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #c7c4c4,
+                -5px -5px --5px #fff;
+                transition: .3s;
+   
+}
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.headerImg1{
+    font-size: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url("marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    color: magenta;
+    font-size: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url("florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img{
+    width: 25%;
+    height: auto;
+}
+
+.MyPicture{
+    text-align: center;
+    
+   
+    
+    
+}
+.Me{
+    background: url("ronaldo-liu-M9U95Yy9huU-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(53, 1, 1);
+    margin-top: 85px;
+    margin-left: 4px;
+    margin-right: 488px;
+    margin-left: 499px;
+}
+.interests{
+    padding-left: 2px;
+    background: url("hobbies.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: maroon;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(51, 1, 1);
+    margin-top: 85px;
+    margin-left: 488px;
+    margin-right: 488px;
+}
+.skills{
+    background: url("designs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 2px;
+    text-align: center;
+    color: magenta;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(94, 0, 39);
+    margin-top: 85px;
+    margin-left: 488px;
+    margin-right: 488px;
+
+}
+.Hobbies{
+    background: url("sunshine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 2px;
+    text-align: center;
+    color: silver;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(99, 4, 19);
+    margin-top: 85px;
+    margin-left: 488px;
+    margin-right: 488px;
+}
+.Contact{
+    position: relative;
+    top: 50%;
+    margin-top: 85px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #ecdbdb;
+    border-radius: 100px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 15px #c7c4c4,
+                -10px -10px -15px #fff;
+
+}
+
+.Contact a .fa{
+    font-size: 29px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    margin: 0 15px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #c7c4c4,
+                -5px -5px -5px #fff;
+                transition: .3s;
+
+}
+.Contact a .fa-facebook {
+    color: #3b5999;
+}
+.Contact a .fa-github{
+    color: 34465d;
+}
+.Contact a .fa-instagram {
+    color: #e4405f;
+}
+.Contact a .fa-linkedin {
+    color: #007785;
+}
+.Contact a .fa:hover{
+    color: #000;
+    box-shadow: inset 5px 5px 10px #c7c4c4,
+            inset -5px -5px 10px #fff;
+
+}

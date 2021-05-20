@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MY BLOG</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="center">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACTS</a></li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1 align="center"><u><i><b>WELCOME TO MY BLOG</b></i></u></h1>
+        <div class="box">
+            <h2><b><u><i>ABOUT ME</i></u></b></h2>
+            <div class="para1">
+                <img src="my img.jpeg" alt="picture" height="300px" width="300px">
+                <p>
+                    Hello everyone .....Let me introduce myself.My name is Sourav Kumar Panda from Deogaon of Bargarh
+                    District.I
+                    have done my 10th in Sri Aurobinda Purnanga Sikshya Niketan Cement Nagar,Bargarh.I completed my 12th
+                    from Vikash
+                    Higher Secondary School Bargarh.Currently i am pursuing my bachelor degree at Veer Surendra Sai
+                    University of
+                    Technology Burla in Computer Science and Engineering.
+                </p>
+            </div>
+            <h2><b><u><i>MY INTERESTS</i></u></b></h2>
+            <div class="para2">
+                <img src="coding.jpg" alt="picture">
+                <p>
+                    My interset is in coding and web development.I am also inetersted in gaming and sports.But my main
+                    tech ineterst
+                    is full stack development because i want to become a full stack developer.
+                </p>
+            </div>
+            <h2><b><u><i>MY SKILLS</i></u></b></h2>
+            <div class="para3">
+                <img src="web dev.jpg" alt="picture">
+                <p>
+                    Currently i am learning web development.I have good knowledge on html and css.Also i have a sound
+                    command over
+                    programming.I have knowlege on C and C++.I am also learning the basics of competitive programming.So
+                    these all
+                    are my skills.
+                </p>
+            </div>
+            <h2><b><u><i>MY HOBBIES</i></u></b></h2>
+            <div class="para4">
+                <ol>
+                    <li>Coding</li>
+                    <li>Reading books and novels</li>
+                    <li>Swimming</li>
+                    <li>Playing Cricket</li>
+                </ol>
+            </div>
+        </div>
+        <h3>To connect with me:</h3>
+        <footer>
+            <ul>
+                <li class="item"><a href="www.facebook.com">Facebook</a></li>
+                <li class="item"><a href="www.instagram.com">Instagram</a></li>
+                <li class="item"><a href="www.linkdin.com">Linkdin</a></li>
+                <li class="item"><a href="www.twitter.com">Twitter</a></li>
+            </ul>
+        </footer>
+
+    </div>
+    <button id="switch" onclick="toggleTheme()">Switch</button>
+    <script>
+        
+        function setTheme(themeName) {
+            localStorage.setItem('theme', themeName);
+            document.documentElement.className = themeName;
+        }
+
+        
+        function toggleTheme() {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-light');
+            } else {
+                setTheme('theme-dark');
+            }
+        }
+
+
+        (function () {
+            if (localStorage.getItem('theme') === 'theme-dark') {
+                setTheme('theme-dark');
+            } else {
+                setTheme('theme-light');
+            }
+        })();
+    </script>
+
+
+</body>
+
+</html>

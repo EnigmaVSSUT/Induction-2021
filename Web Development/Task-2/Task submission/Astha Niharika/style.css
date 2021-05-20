@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.head {
+  font-size: 1cm;
+  text-align: center;
+}
+#main{
+  text-align: center;
+  background-color: rgb(64, 212, 212);
+  padding-right: 100px;
+  padding-left: 100px;
+  border-right-width: 70px;
+  font-family: Arial, sans-serif;
+
+}
+
+.My-image img{
+  padding-right: 20px;
+  padding-left: 20px;
+  height : 5cm;
+  width : 7cm;
+}
+
+.My-interest img{
+  padding-right: 40px;
+  padding-left: 40px;
+  height : 4cm;
+  width : 8cm;
+
+}
+.My-skills img{
+  padding-right: 20px;
+  padding-left: 20px;
+  height : 5cm;
+  width : 10cm;
+
+}
+
+
+.about-paragh{
+  display : flex;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.interest-paragh{
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.skill-paragh{
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.content{
+  background-color : gainsboro;
+}
+
+ .hobbiesofme{
+   align-items: center;
+   justify-content: space-around;
+   display : flex;
+ }
+
+ .contact-me{
+   justify-content: space-between;
+   font-size: 0.9em;
+   list-style: none;
+   display: inline-flex;
+   width:400px;
+   padding:5px;
+   }
+   
+   p {
+     margin-top: 1em;
+     margin-bottom: 7em;
+   }
+
+.cont{
+  color : rgb(9, 9, 134);
+  font-size: 0.5cm;
+}
+
+button{
+  align-items : center; 
+  cursor : pointer;
+  background : gainsboro;
+  border : none;
+  outline : none;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 320px;
+  height: 50px;
+  border-bottom : 3px solid gray;
+  border-top : 3px solid white;
+  border-left : 3px solid white;
+  border-right : 3px solid gray;
+}
+

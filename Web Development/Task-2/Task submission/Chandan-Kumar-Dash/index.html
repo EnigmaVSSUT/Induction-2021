@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="As1CSS.css">
+</head>
+
+<body>
+    <h1><u>HI THERE.. WELCOME!!</u></h1>
+    <br>
+    <br>
+    <b>Dark Mode</b>
+    <div>
+     <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div>
+        <h2 id="abouth"> <u> About Me</u></h2>
+        <div id="abto">
+            <div>
+                <p id="about">
+                    Hello everyone, I am Chandan Kumar Dash from Bhubhaneshwar, I have completed my matriculation from
+                    Kendriya
+                    Vidyalaya Aurangabad, Maharashtra. And I have completed my intermediate from Narayana Junior College
+                    Visakhapatnam, Andhra Pradesh. Currently I am pursuing my bachelors of technology degree from Veer Surendra Sai
+                    University of Technology, Burla in the department of Electrical and Electronics Engineering.
+                   
+                </p>
+            </div>
+           
+            <div id="abt">
+                <img src="me.jpg" alt="About me" height="350" >
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <div>
+        <h2 id="interesth"> <u>My Interests</u> </h2>
+        <div id="inter">
+           <div>
+                <p id="interest"> <br>
+            I am interested in electronic devices like Computers, laptops, phones etc. like How does a computer processes
+            the data, How is a computer program built, programming languages, computer games and how they are built.
+        </p>
+    </div>
+                <div id="int">
+                    <img src="inte.jpeg" alt="interests" height="300" width=>
+                </div>
+        </div>
+   
+    
+    </div>
+    <div>
+        <h2 id="skillh"><u>My Skills</u></h2>
+        <div id="ski">
+           <div>
+            <p id="skills">I have knowledge about various programming languages like C, C++, Python. basics of Photoshop and
+                little knowledge about game development.
+             </p>
+           </div>
+             <div id="skil">
+                <img src="skill.jpg" alt="my skills" height="300">
+            </div>
+        </div>
+    
+    </div>
+    
+    <div>
+        <h2 id="hobbyh"><u>My Hobbies</u></h2>
+    
+    <div id="hby">
+        <div>
+            <ul id="hobby">
+                <li>Playing games</li>
+                <li>Coding</li>
+                <li>learning new things</li>
+                <li>reading books</li>
+                <li>Watching Web series, Movies, Anime etc</li>
+            </ul>
+        </div>
+        <div id="hoby">
+            <img src="hobby.jpg" alt="my hobbies" height="300">
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    
+        const checkbox = document.getElementById('checkbox');
+        
+        checkbox.addEventListener('change' , () => {
+            document.body.classList.toggle('dark');
+        });
+            </script>
+
+
+</body>
+
+</html>
