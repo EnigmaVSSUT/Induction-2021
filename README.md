@@ -23,7 +23,7 @@ Second week starts with a rigorous learning of **competitive coding**. After tha
 ### Week 3 (09.05.2021 to 15.05.2021)
 Third week will be a walk around on one of the most popular technologies of modern world, web development. You will be learning the basics of web development, the languages like **HTML, CSS, Javascript** and others to come on the way.<br>
 
-### Week 4 (16.05.2021 to 22.05.2021)
+### Week 4 (16.05.2021 to 22.05.2021) done
 The fourth and the final week will start with a very popular language, **Python**. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of **Machine Learning**.<br>
 
 #### _SUBMISSION:_ <br>
