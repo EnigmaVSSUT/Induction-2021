@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Web task 2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Ubuntu', sans-serif;
+            background: rgb(58 175 169);
+        }
+
+        .info {
+            background-color: rgb(222 242 241);
+            margin: 0% 13%;
+        }
+
+        p {
+            padding-left: 150px;
+            padding-right: 150px;
+            float: left;
+            clear: right;
+            text-align: justify;
+            font-size: 100%;
+
+        }
+
+        h1 {
+            /* background-color: rgb(51 146 204); */
+            color: darkblue;
+            text-align: center;
+            height: 20px;
+            margin: 50px auto;
+            padding: 28px;
+            font-size: 280%;
+
+        }
+
+        h2 {
+
+            color: darkblue;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 160%;
+
+        }
+
+        .foot {
+             color: rgb(2, 2, 65);
+            text-align: center;
+            height: 100px;
+            padding: 0% 25% 0% 26%;
+
+        }
+
+        .social li {
+            float: left;
+            list-style: none;
+        }
+
+        .social li a {
+
+            margin: 0px 0px;
+            padding: 0px 29px;
+            text-align: center;
+            color: darkblue;
+            
+
+        }
+         a:hover  {
+
+        color: darkblue;
+        background-color: rgb(93, 93, 180);
+
+}
+        .social {
+            margin: 50px;
+        }
+
+        .social h4 {
+
+            margin: 500px 10px;
+            padding: 10px 45px;
+            box-sizing: border-box;
+
+        }
+
+        img {
+            margin-left: 15px;
+            margin-right: 0px;
+            float: right;
+            clear: left;
+        }
+        img.sec {
+            margin-right: 15px;
+            margin-left: 0px;
+            float: left;
+            clear: right;
+        }
+        .hobbies {
+            padding: 0px 150px 1px 223px;
+            margin: 0px 173px;
+        }
+        .skl{
+            margin-top: -100px;
+            padding: 0px;
+        }
+        h4{
+            color: darkblue;
+        }
+        .switch{
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: auto;
+            width: 20%;
+            height: 20%;
+            text-align: center;
+            margin-top: 45px;
+            background-color: white;
+            color: darkblue;
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+        .switch:hover{
+           
+            background-color: rgb(183, 183, 228);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> WELCOME TO MY PAGE!!</h1>
+    <div class="info">
+        <h2>About me</h2>
+        <div>
+            <p>
+                  <img src=" pic4.jpg" height="150" width="150" alt="about me">
+                Myself Manas Kumar Panda,I'm currently pursuing my study at VSSUT,Burla.
+		I have completed my 12th from N.C(junior)college,Jajour.I'm very friendly student and love to explore new things . 
+		I'm currently live in jajpur and i also enjoy the enviornment of jajpur.
+            </p>
+        </div>
+        <h2>My Interests</h2>
+        <div>
+            <p>
+                I'm so much interested about computer and try to explore new ideas and tech in it.I'm also love to code
+		other than this i want to read books ,poetry,cycling.i also love to play games such as-cricket,vollyball...
+
+            </p>
+        </div>>
+        <div class="skl">
+        <h2>My Skills</h2>
+    </div>
+        <div>
+            <p>
+                I have no previous coding experience before i join the college.But after joining i start learing C and now i'm  learning  C++.
+		and i gives thanks to Enigma club of our college because due to hard  work of our club members help me to lrarn CSS,HTML etc..
+
+            </p>
+
+        </div>
+
+        <h2>List of My Hobbies</h2>
+        <nav class="hobbies">
+            <ul>
+                <li>Watching Movies</li>
+                <li> Read books</li>
+                <li> Playing cricket </li>
+            </ul>
+        </nav>
+    </div>
+    <div   class="switch" >
+      change theme
+     
+    </div>
+    <h2>for forther instruction you can contect me!!</h2>
+    <div class="foot">
+
+        <nav class="social">
+            <ul>
+                <li >&nbsp instagram </li>
+                <li>&nbsp;&nbsp facebook </li>
+                <li>&nbsp;&nbsp linkedin</li>
+                 
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <h4>copying your name 2021</h4>
+    </div>
+</body>
+<script type="text/javascript">
+var color=["#000000","rgb(58 175 169)"];
+var i=0;
+document.querySelector(".switch").addEventListener("click",function(){
+    i==0  ? i=1 :i=0;
+    
+ document.querySelector("body").style.background=color[i];
+})
+
+
+</script>
+
+</html>
