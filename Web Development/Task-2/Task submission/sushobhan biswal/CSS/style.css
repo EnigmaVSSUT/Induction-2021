@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    background-image: url(../images/wallhaven-eymzjk_1920x1080.png);
+    background-size: cover;
+}
+h1 {
+    font-size: 40;
+    text-align: center;
+       
+}
+h3 {
+    font-size: 30;
+}
+.about-me {
+    text-align: center;
+    width: 800px;
+    
+
+}
+#pic {
+    flex-grow: 1;
+  
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+#mypic {
+    height: 600px;
+}
+#mypic2 {
+    height: 300px;
+}
+#mypic3 {
+    height: 300px;
+}
+
+.about-me {
+    
+    border: 2px solid red;
+    flex-grow: 2;
+    margin: 20px;
+    background-color: rgba(222, 184, 135, 0.473);
+    border-radius: 20px;
+    
+   
+}
+.profile {
+    
+    display: flex;
+    
+    
+}
+
+
+.profile img {
+    align-self: center;
+    border-radius: 20px;
+
+    margin: 10px 0px;
+
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    
+}
+footer {
+    text-align: center;
+    background-color: rgba(230, 128, 55, 0.473);
+    font-size: 30px;
+  
+
+}
+i{
+    padding: 50px;
+    color: black;
+}
+header {
+    background-color: rgba(162, 125, 230, 0.616);
+    text-align: center;
+    padding: 50px;
+
+}
+header a{
+    padding: 200px;
+    color: black;
+    font-family:'Times New Roman';
+}
+/*  alter theme */
+
+
+* {
+    box-sizing: border-box;
+}
+.label {
+    background-color: black;
+    width: 50px;
+    height: 26px;
+    display: flex;
+    border-radius: 50px ;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+
+
+}
+
+.ball {
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50px;
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball {
+   transform: translateX(24px);
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.dark {
+    background-image: url(../images/wallhaven-3zl796_1920x1080.png);
+}
+.dark p {
+    color:#fff;
+    transition: 0.4s;
+}
+.dark li {
+    color:#fff;
+    transition: 0.4s;
+}

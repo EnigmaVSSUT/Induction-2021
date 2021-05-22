@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .darkmode{
+            background-color: black;
+            color: white;
+        }
+        button{
+            background-color: springgreen;
+            color: black;
+            border:black solid 2px;
+           display: block;
+           margin: auto;
+            height:1.4cm;
+            width:3cm;
+            margin: 54px 70px 51px 688px;
+
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            line-height: 32px;
+            border:black solid 2px;
+            background-color: rgb(255 193 7);
+            border-radius: 20px;
+        }
+        h1{
+           text-align: center;
+            font-size: 2cm;
+        }
+        
+        #about img{
+            display: block;
+            margin: auto;
+           height: 7cm;
+           width: 7cm;
+        }
+        #interests img{
+            display: block;
+            margin: auto;
+        }
+        #skill img{
+            display: block;
+            margin: auto;
+            height: 7cm;
+           width: 7cm;
+        }
+        #hobby img{
+            display: block;
+            margin: auto;
+            height: 7cm;
+           width: 7cm;
+        }
+        li{
+            text-align: center;
+            list-style: none;
+            font-size: 20px;
+            background-color: rgb(255 193 7);
+            margin-right: 9cm;
+            margin-left: 9cm;
+            line-height: 32px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> !WELCOME!</h1>
+    <button onclick="toggletheme()">Dark mode</button>
+
+<div id="about">
+    <img src="http://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg" alt="error">
+    <p>Hii, I'm sibasundar Behera ,currently pursuing my Bachelor's degree in Veer Surendra Sai University Of Technology, Burla.I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities.  </p>
+</div>
+<div id="interests">
+    <img src="https://freepngimg.com/thumb/graphic_design/11-2-graphic-design-png-file.png" alt="error">
+    <p>Having hobbies and interests outside of the workplace allows you to explore your passions and become a more well-rounded person. While an interviewer may ask you to elaborate on the education and experiences listed on your resume, they may also ask what you like to do for fun or how you spend your time on the weekends. In this article, we show you how to determine your applicable hobbies and interests, relate them to the job you’re interviewing for and provide you an example to answer the question, “What are your hobbies and interests?”</p>
+</div>
+<div id="skill">
+    <img src="https://freepngimg.com/thumb/nose/88566-art-skills-text-study-question-learning.png" alt="error image">
+    <p>Recruiters and hiring managers look for candidates who can jump right in on the first day of work and start helping the company achieve its goals. That means finding people with the right technical skills to get the job done. 
+    Many technical skills require training and experience to master. They are also typically a type of hard skill. Hard skills are those that can be taught in a classroom, and can be defined, evaluated, and measured </p>
+</div>
+<div id="hobby">
+    <img src="https://freepngimg.com/thumb/logo/73656-social-logo-slideshare-computer-icons-free-clipart-hq.png" alt="error image">
+    <ul><li>watching movies</li>
+    <li>coding</li>
+    <li>travelling</li>
+    <li>football</li>
+</ul>
+</div>
+    <script>
+        function toggletheme()
+        {
+            var element=document.body;
+            element.classList.toggle("darkmode");
+
+        }
+    </script>
+</body>
+</html>
