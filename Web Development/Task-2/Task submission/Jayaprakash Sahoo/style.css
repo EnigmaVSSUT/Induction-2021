@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: sans-serif;
+    color: black;
+}
+body::before{
+    content: '';
+    position: absolute;
+    bottom: -23px;
+    right: -70px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.342),rgb(17, 201, 0));
+}
+#icon{
+    position: absolute;
+    right: 100px;
+    width: 30px;
+    content: '';
+    height: 16px;
+    top: 20px;
+    color: 2px solid black;
+    border-radius: 22px;
+    border: 2px solid;
+    cursor: pointer;
+}
+#icon.night0{
+    border: 2px solid white;
+}
+body.night1{
+    background: rgb(46, 46, 46);
+    color: white;
+}
+#icon::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 1px;
+    width: 16px;
+    content: '';
+    height: 16px;
+    background: black;
+    border-radius: 50%;
+    transition: 0.5s; 
+}
+#icon.night0::before{
+    background: white;
+    left: 16px;
+}
+.line{
+    font-size: 6vh;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+    color: rgb(17, 201, 0);
+    border-bottom: 1px rgb(17, 201, 0);
+}
+.card{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    position: absolute;
+    margin-top: 60px;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                inset 2px 2px 2px -1px rgba(160, 160, 160, 0.726);
+    width: 75%;
+    background: rgba(255, 255, 255, 0.301);
+    border-radius: 7px;
+    transition: 1s;
+    padding: 20px;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card.night2{
+    background: rgba(63, 63, 63, 0.301);
+}
+.dp{
+    width: 100%;
+}
+.dp img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.bio{
+    border-right: 5px solid rgb(17, 201, 0);
+    padding: 1em;
+}
+h2{
+    color: rgb(17, 201, 0);
+    text-align: center;
+}
+p{
+    color: black;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .soc{
+    color: rgb(17, 201, 0);
+    transition: 0.5s;
+    font-size: 25px;
+}
+.soc:nth-child(1):hover{
+    color: rgb(161, 161, 161);
+}
+.soc:nth-child(2):hover{
+    color: #0077b5;
+}
+.soc:nth-child(3):hover{
+    color: #cd486b
+}
+.soc:nth-child(4):hover{
+    color: #4267B2;
+}
+p.night3{
+    color: white;
+}
