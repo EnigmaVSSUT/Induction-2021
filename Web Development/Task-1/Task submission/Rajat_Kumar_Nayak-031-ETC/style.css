@@ -1,0 +1,89 @@
+html{
+  background-image: url('pexels-tim-mossholder-1171719.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center;
+  border: 10px solid ghostwhite;
+}
+
+a:link {
+    background-color: yellow;
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+} 
+.container
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: left;
+}
+img{
+  max-width: 100px;
+  max-height: 150px;
+  padding-right:30px;
+}
+.container1
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: left;
+}
+img1{
+  max-width: 240px;
+  max-height: 300px;
+  padding-right:30px;
+}
+.container2
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: left;
+}
+img{
+  max-width: 300px;
+  max-height: 350px;
+  padding-right:30px;
+}
+.red
+{
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  font-weight: bold ;
+  text-align: center
+}
+.green
+{
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  font-weight: bold ;
+  text-align: center;    
+}
+.yellow
+{
+  color:rgb(255, 255, 255);;
+  font-size:25px;
+  text-align: center;
+}
+h1
+{
+  font-size:50px;
+  text-align: center;
+  color: lightcoral;
+}
+h2
+{
+  font-size:40px;
+  text-align:center;
+  color: aqua;
+  border: 3px dotted green;
+}

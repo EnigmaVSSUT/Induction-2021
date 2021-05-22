@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Pathway Gothic One', sans-serif;  
+
+}
+button{
+    cursor: pointer;
+}
+@media (max-width: 1130px) {
+    #sdwtext{
+        display: none;
+    }
+    #logo img{
+        background-color: transparent;
+    }
+}
+@media (max-width: 500px) {
+    body{
+        font-size: 13px;
+    }
+    #mypic{
+        max-height: 500px;
+    }
+}
+body::after{
+
+    content: "";
+
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+
+    top: 0px;
+    left: 0px;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    transition: 0.5s;
+}
+.bodylght::after{
+    content: "";
+    
+    background-image: url(lgtbackground.jpg);
+    background-size: cover;
+    background-position: center;
+
+    top: 0px;
+    left: 0px;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    z-index: -1;
+
+    transition: 0.5s;
+}
+/*--------------Mode---------------*/
+#sun{
+    position: sticky;
+    top: 0px;
+    left: 100%;
+    z-index: 2;
+
+    padding: 5px;
+
+    background-color: transparent;
+    border: transparent;
+}
+#moon{
+    display: none;
+
+    position: sticky;
+    top: 0px;
+    left: 100%;
+    z-index: 3;
+
+    padding: 5px;
+
+    background-color: transparent;
+    border: transparent;
+}
+/*---------------Logo---------------*/
+#logo{
+    position: fixed;
+    top: 0vh;
+}
+#logo img{
+    margin: 0px 1px;
+    height: 50px;
+    border-radius: 2px;
+
+    background-color: rgba(255, 106, 106, 0.459);
+    
+    transition: 0.3s;
+}
+.logo{
+    height: 40px;
+}
+.logo img{
+    animation: logochng 0.5s ease-in-out forwards;
+}
+@keyframes logochng {
+    100%{
+        height: 40px;
+    }
+}
+/*---------------header------------------*/
+header{
+    display:flex;
+    justify-content: center;
+    height: 40vw;
+    
+    background-color: rgba(65, 56, 54, 0.781);
+}
+#ImgCont{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerImg{
+    width: 24.2%;
+    height: 98%;
+}
+.headerImg img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.5s;
+}
+.headerImg img:hover{
+    transform: translateY(-2.5%);
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+#i1{
+    height: 80%;
+}
+#i3{
+    height: 80%;
+}
+#i2{
+    height: 94%;
+}
+#i4{
+    height: 94%;
+}
+/*-------------------Scroll Bar-----------------*/
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(109, 76, 76);
+    box-shadow: inset 0px 0px 4px black;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-track-piece{
+    background: rgb(0, 0, 0);
+}
+/*----------------------navigation bar*----------------------*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: sticky;
+    top: 0px;
+
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: inset 0px 20px 50px 5px black;
+}
+nav a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    height: 100%;
+    font-size: 120%;
+    
+    color: rgb(137, 225, 255);
+    text-decoration: white;
+}
+.menuNav{
+    position: relative;
+
+    margin: 0px 1%;
+    min-width: 100px;
+    height: 40px;
+}
+.optNav a{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.menuNav ul{
+    text-align: center;
+    list-style: none;
+    background-color: rgb(54, 54, 54);
+    opacity: 0;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+    
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2px 2px 10px black;  
+    visibility: hidden;
+}
+.menuNav li a{  
+    padding: 10px;
+    
+    border-top: 2px solid rgba(255, 255, 255, 0.26);
+    font-size: 130%;
+}
+
+/*-------------------nav Hover effects------------------*/
+.menuNav:hover .optNav{
+    background-color: rgb(32, 32, 32);
+    transition: 0.3s;
+}
+.menuNav:hover ul{
+    visibility: visible;
+    z-index: 1;
+    animation: ulslide 0.2s ease-in-out forwards;
+}
+@keyframes ulslide {
+    100%{
+        opacity: 1;
+        transform: translateY(-3px);
+    }
+}
+.optNav a:hover{
+    color: rgb(0, 174, 255);
+}
+.menuNav li:hover{
+    background-color: rgb(39, 31, 31);
+    
+}
+.menuNav li:hover a{
+    color: rgb(58, 190, 58);
+}
+
+
+/*---------------------up button----------------*/
+#upBtnUp{
+    display: none;
+    position: fixed;
+    bottom: -50px;
+    right: 9px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 30px white;
+    
+    animation: upslide 0.3s ease-out forwards;
+}
+@keyframes upslide {
+    100%{
+        transform: translateY(-60px);
+    }
+}
+/*-----------------------Home Page------------------*/
+#profile{
+    margin: 5% 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pp{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    justify-self: center;
+}
+#profile img{
+    align-self: center;
+    border-radius: 20px;
+
+    margin: 10px 0px;
+
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+#mypic{
+    height: 70vh;
+}
+#sklpic{
+    min-height: 200px;
+    max-width: 300px;
+}
+#aboutme{
+    flex-grow: 20;
+    align-self: center;
+
+    margin: 0px 10px;
+    width: min-content;
+
+    background-color: rgba(0, 0, 0, 0.288);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border: 2px solid red;
+
+    padding: 1%;
+
+}
+h2{
+    padding: 1% 5px;
+
+    
+    color: rgba(255, 255, 255, 0.562);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    padding: 1%;
+
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.61);
+    text-decoration: underline;
+
+    font-family: 'Arbutus', cursive;
+}
+#aboutme li{
+    margin-left: 20px;
+
+    color: white;
+
+    
+    font-size: 150%;
+}
+p{
+    padding-left: 10px;
+
+    font-size: 150%;
+
+    color: white;
+}
+/*----------------Footer-------------*/
+footer{
+    text-align: center;
+    font-size: 200%;
+    
+    background-color: rgba(255, 117, 117, 0.596);
+}
+footer i{
+    color: rgb(0, 0, 0);
+    padding: 0.5% 2%;
+    transition: 0.2s;
+}
+footer i:hover{
+    text-shadow:0px 0px 10px white;
+    transition: 0.2s;
+}
+footer i:active{
+    color: grey;
+    transition: 0.2s;
+}

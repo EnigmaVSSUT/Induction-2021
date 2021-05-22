@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(xavier.jpg) no-repeat;
+    background-size:cover;
+}
+.square{
+    width: 550px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align:center;
+    margin:auto;
+    margin-top:5%;
+    color:white;
+    font-family:garamond, sans-serif;
+}
+section.dark .square{
+    background: rgb(255, 255, 255,0.7);
+}
+section.dark .square{
+    color:rgba(0, 0, 0, 0.8);
+}
+.square img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+ .square h5{
+     font-size:25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: left;
+    }
+.square p{
+    text-align:justify;
+}
+.square ul{
+ text-align:justify;
+}
+.square li{
+    list-style: none;
+}
+.square li:before
+{
+    content:"\27BE" ;
+}
+
+.toggle{
+    position:absolute;
+    top:30px;
+    right:30px;
+    background:rgba(248, 244, 244);
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.toggle:before{
+    content:'\f185';
+    font-family: fontAwesome;
+    color:rgb(7, 7, 7);
+}
+section.dark .toggle:before
+{   
+    content: '\f186';
+}
