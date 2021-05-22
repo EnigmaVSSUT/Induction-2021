@@ -1,0 +1,37 @@
+h2{
+    color: coral;
+    text-align: center;
+}
+p{
+    margin-top: 50px;
+}
+.a{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(212, 245, 24);
+    text-align: center;
+    margin: auto;
+
+
+}
+h4{
+    color: darkgreen;
+    size: 80px;
+    text-align: center;
+}
+img{
+    float: left;
+    margin: 5px;
+}
+li{
+    text-align: left;
+}
+button{
+    color: chocolate;
+    align-items: center;
+    
+}
+footer{
+    margin-left: 40%;
+    margin-right: 25%;
+}

@@ -1,0 +1,247 @@
+/*      HEAD     */
+#head{
+    text-shadow: 2px 2px 2px;
+    font-family: 'Girassol', cursive;
+    font-size: 80px;
+    color:rgb(252, 140, 13) ;
+    
+    padding: 10px;
+
+    border-radius: 50px;
+}
+
+/*     BODY     */
+.body{
+    background:snow;
+    background-blend-mode: lighten;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;    
+    
+}
+.button{
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 90px;
+    text-align: center;
+    float: right;
+    display:inline-flex;
+
+    clear: both;
+    margin: 6px 2px;
+    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+/*       Navigation Bar      */
+.navList{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: saddlebrown;
+    
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 50px;
+}
+.navList:hover{
+    height: 10px;
+}
+.toggle{
+    color: saddlebrown;
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;  
+    display: none;
+}
+.toggle li a{
+    color: saddlebrown;
+    padding: 14px 16px;
+}
+.menu{
+     float:left;
+    
+}
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(37, 36, 36);
+    overflow: hidden;
+    list-style: none;
+}
+.dropdown .dropbtn {
+    font-size: 20px;  
+    list-style: inherit;
+    padding: 5px 20px;
+    font-family: inherit;
+   
+}
+.dropdown:hover{
+    background-color:snow;
+}
+.blog-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+   
+  }
+  .blog-list a {
+    float: none;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .blog-list {
+    display: block;
+}
+
+/*       Topic Heads      */
+.topic{
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    color: white;
+    font-size: 50px;
+    font-family:  'Girassol', cursive;
+
+}
+
+/*        Divisions      */ 
+.div{
+    margin: 20px;
+    
+    background-color: rgba(255, 255, 240, 0.329);
+    text-align: center;
+    align-items: center;
+    text-shadow: 10px;
+    font-family: cursive;
+
+    display:inline-block;
+    font-size: 20px;
+    
+}
+.div2{
+    border-style: inset;
+    border-color: lightpink;
+    border-width: 5px 5px;
+    border-radius: 5px;
+}
+/*       Content      */
+#about{
+    width: 800px; height: auto;
+    align-content: center;
+    text-overflow: clip;
+    text-anchor: middle;
+
+
+    color: rgba(231, 148, 54, 0.685);
+}
+#interest{
+    width: 1000px; height: 500px;
+    color: rgba(231, 148, 54, 0.685);
+    padding: auto;
+
+    align-content: center;
+}
+#skills{
+    
+    color: rgba(231, 148, 54, 0.685);
+    align-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-decoration-color: lightsalmon;
+    
+}
+#hobbie{
+    color: rgba(231, 148, 54, 0.685);
+    align-content: center;
+    padding-left: 510px;
+    padding-right: 500px;
+}
+
+
+/*     Image     */
+#myImage{
+    object-fit: contain;
+    border-radius: 30px;
+    padding: 9px;
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+
+    transition-delay: 0s;
+    
+}
+#myImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+img{
+    object-fit: contain;
+    padding:9px;
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+}
+
+/*     Footer     */
+.footer{
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(131, 7, 34, 0.452);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.side1{
+    color: saddlebrown;
+    float: left;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.side2{
+    float:right;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.side3{
+    float: none;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.last{
+    display:inline-flex;
+}
+
+
+/*    Links    */
+a:link{
+    color:blue;
+    background-color: transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:rgba(136, 136, 136, 0.267);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color:green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
