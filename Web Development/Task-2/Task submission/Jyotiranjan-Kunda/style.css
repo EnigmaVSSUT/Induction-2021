@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(christopher-gower-m_HRfLhgABo-unsplash.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.box{
+    width : 625px;
+    background: rgb(21 21 21 / 80%);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 20px;
+}
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p{
+    text-align: center;
+    font-size: 18px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+    margin-left: 52px;
+    margin-top: 6px;
+}
+.box li a{
+    
+    color: white;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 48px;
+    font-family: unset;
+    font-size: 42px;
+}
+
+.box:hover{
+    background-color: rgb(19, 16, 16);
+    color: rgb(6, 99, 238);
+}
+
+.light-mode{
+    background: rgba(255,245,238,1);
+}
+
+.light-mode .box{
+    background: rgba(255, 218, 185, 1);
+    color: black;
+}
+
+.btn-bot{
+    position: bottom;
+    padding: 11px;
+    margin-top: 41px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
