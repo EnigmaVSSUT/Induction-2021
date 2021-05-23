@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(85, 125, 185);
+  text-align: center;
+  margin: 0;
+}
+#all {
+  background-color: rgb(236, 192, 192);
+  padding: 10px 80px 10px 50px;
+  width: 1000px;
+  height: 1000px;
+}
+#title {
+  font-size: 50px;
+  color: rgb(61, 9, 2);
+}
+
+div {
+  width: 800px;
+  margin: auto;
+}
+img {
+  display: inline;
+  width: 30%;
+  height: 18%;
+}
+.about {
+  color: rgb(0, 0, 0);
+  background-color: rgb(134, 182, 4);
+  font-size: 40px;
+}
+.gap {
+  margin-top: 200px;
+}
+footer {
+  background-color: rgb(127, 228, 69);
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: -14px;
+}
+#social {
+  list-style-type: none;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 35px;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+#switchTheme {
+  margin-top: 3rem;
+  background-color: rgb(134, 182, 4);
+  width: 15rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  border: none;
+}
+#switchTheme:hover {
+  background-color: rgb(49, 87, 27);
+  transition: 0.5s;
+  color: #ceb4b4;
+}
+
+.darkBody {
+  background-color: rgb(16, 21, 29);
+  color: #ceb4b4;
+}
+
+.darkBody #title {
+  color: rgb(61, 43, 41);
+}
+
+.darkBody #all {
+  background-color: rgb(61, 43, 41);
+}
+
+.darkBody .about {
+  background-color: rgb(49, 87, 27);
+}
+.darkBody footer {
+  background-color: rgb(49, 87, 27);
+}
+
+.darkBody a {
+  color: #1a0c9c;
+}
+.darkBody #switchTheme {
+  background-color: rgb(49, 87, 27);
+}
+.darkBody #switchTheme:hover {
+  background-color: rgb(134, 182, 4);
+  color: rgb(61, 43, 41);
+}

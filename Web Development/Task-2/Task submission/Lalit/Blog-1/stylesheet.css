@@ -1,0 +1,251 @@
+/*      HEAD     */
+#head{
+    text-shadow: 2px 2px 2px;
+    font-family: 'Girassol', cursive;
+    font-size: 80px;
+    color:rgba(252, 140, 13, 0.877) ;
+    
+    padding: 10px;
+
+    border-radius: 50px;
+}
+#sub_head{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
+    font-family: Girassol;
+    font-size: 30px;
+}
+/*     BODY     */
+.body{
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;    
+}
+#Theme{
+    float:right;
+    position: sticky;
+}
+
+/*       Navigation Bar      */
+.navList{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: saddlebrown;
+
+
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 50px;
+}
+.navList:hover{
+    height: 10px;
+}
+.toggle{
+    color: saddlebrown;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: right;
+
+    font-size: 30px;  
+}
+.toggle li a{
+    color: saddlebrown;
+    padding: 14px 16px;
+}
+.menu{
+    display: inline;
+     float:left;
+    
+}
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(37, 36, 36);
+    overflow: hidden;
+    list-style: none;
+}
+.dropdown .dropbtn {
+    font-size: 20px;  
+    list-style: inherit;
+    padding: 5px 20px;
+    font-family: inherit;
+   
+}
+.dropdown:hover{
+    background-color:snow;
+}
+.blog-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+   
+  }
+  .blog-list a {
+    float: none;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .blog-list {
+    display: block;
+}
+
+/*       Topic Heads      */
+.topic{
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    color: snow;
+    font-size: 50px;
+    font-family:  'Girassol', cursive;
+}
+
+/*        Divisions      */ 
+.div{
+    color: rgba(231, 148, 54, 0.685);
+    text-align: center;
+    align-items: center;
+    text-shadow: 10px;
+    font-family: cursive;
+    width: 800px;
+
+    display:inline-block;
+    font-size: 25px;
+    
+}
+.div2{
+    border-style: inset;
+    border-color: lightpink;
+    border-width: 5px 5px;
+    border-radius: 5px;
+}
+/*       Content      */
+#about{
+    width: 800px; height: auto;
+    align-content: center;
+    text-overflow: clip;
+    text-anchor: middle;
+
+    color: rgba(245, 132, 2, 0.747);
+}
+#interest{
+    width: 1000px; height: auto;
+    color: rgba(245, 132, 2, 0.747);
+    align-content: center;
+}
+#skills{
+    
+    color: rgba(245, 132, 2, 0.747);
+    align-content: center;
+    padding-left: 600px;
+    padding-right: 600px;
+    text-decoration-color: lightsalmon;
+    
+}
+#hobbie{
+    color: rgba(245, 132, 2, 0.747);
+    align-content: center;
+}
+#school{
+    color: rgba(236, 233, 230, 0.685);
+    font-size: 45px;
+}
+
+/*     Image     */
+#myImage{
+    object-fit: contain;
+    border-radius: 30px;
+    padding: 9px;
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+
+    transition-delay: 0s;
+    
+}
+#myImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+img{
+    object-fit: contain;
+    padding:9px;
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+}
+#hall{
+    object-fit: contain;
+    position: relative;
+    border-radius: 30px;
+    display: block;
+}
+#act{
+    object-fit:contain;
+    position:relative;
+    border-radius: 30%;
+    padding: 20px;
+    max-width: 100%;
+    display: inline-block;
+}
+#hall:hover {
+    box-shadow: 0 0 2px 1px rgba(2, 22, 29, 0.5);
+}
+
+/*     Footer     */
+.footer{
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(131, 7, 34, 0.452);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.side1{
+    color: saddlebrown;
+    float: left;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.side2{
+    float:right;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.side3{
+    float: none;
+    padding-inline: 15px;
+    -ms-text-combine-horizontal: all;
+}
+.last{
+    display:inline-flex;
+}
+
+
+/*    Links    */
+a:link{
+    color:blue;
+    background-color: transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:rgba(136, 136, 136, 0.267);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color:green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+

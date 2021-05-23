@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my first web page</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <style>
+      body {
+        /* background-image: url(images/bg.jpg); */
+        background-color: rgb(58 175 169);
+      }
+      .clas {
+        background: rgb(144, 146, 137);
+        height: 1300px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 30px 231px 14px 231px;
+        padding: 0px;
+        font-style: italic;
+        font-size: large;
+        text-align: center;
+        color: black;
+      }
+      .p1 {
+        text-align: left;
+        margin: 20px 27px 0px 100px;
+        color: black;
+      }
+      .head {
+        text-align: center;
+        margin: 40px;
+        padding: 0px;
+        color: rgb(207, 110, 45);
+      }
+      .img1 {
+        float: right;
+        height: 200px;
+        width: 400px;
+        /* margin: 50px; */
+      }
+      .img{
+        float: right;
+        height: 185px;
+        width: 258px; 
+      }
+      .img3{
+        float: left;
+        height: 160px;
+        width: 337px;
+        margin: -80px;
+        }
+
+      .list{
+          text-align: left;
+          margin:-9px 0px 23px 357px;
+      }
+      #cla{
+          margin: 30px 231px 30px 656px;
+          color: antiquewhite;
+      }
+      .switch{
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: auto;
+            width: 20%;
+            height: 20%;
+            text-align: center;
+            margin-top: 45px;
+            background-color: white;
+            color: darkblue;
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+        .switch:hover{
+
+            background-color: rgb(183, 183, 228);
+        }
+        .social{
+          margin:10px 53px ;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;color:rgb(173, 106, 18);">WELCOME TO MY PAGE</h1>
+    <div class="clas">
+      <h1 class="head">About Me</h1>
+      <p class="p1">
+        <img class="img" src="images/about_me.png" alt="my image" />
+        Hello everyone this is Biswajit Nayak.I am currently persuing my B.Tech
+        in the branch of Information Technology and am in first year.I am a
+        resident of Jajpur.I have done my schooling from Gurukul Public
+        schooling and intermediate from Vikash Residential School.It was quite a
+        wonderful journey all starting from scratch.Ups and Downs have been a
+        frequent part of the whole story and it is no wrong in facing them too
+        as the situations bring the best in us and we must be ready enough to
+        adore them with all our might and main.I just hope that I shall be able
+        to get upto my expectations within these four years and make each and
+        every brightful memory I can adhering to every kind of situation
+        regardless of its obstacles.
+      </p>
+      <h1 class="head">My Interests</h1>
+      <p class="p1">
+        <img class="img1" src="images/interests.jpeg" alt="Interests" />
+        There are not much things to add to my interests but all those things
+        which seems to me in a unique attire never fail to grab my attraction.
+        Well, I love to explore food items and I am keen viewer of all kinds of
+        street food vlogs.I also have a keen interest towards animation series
+        and comics:Champak,Tinkle,Chandamama,Ben 10,Tom and Jerry are just
+        enough to glorify the list.Top of the all I love natural sights and
+        sceneries.They are just a constant source of relaxation and no matter
+        how harsh the situation is they always make me heave a sigh of relief.
+        Talking about seasons,winter season undoubtedly stands to be my
+        favourite season cause I get no beautiful sleep than in a wintry
+        night.Squeezing up inside a quilt and grabbing a pillow by the sidea are
+        just enough to sail one smoothly through the long night. Eventually I
+        love exploring things and try my best to enjoy every moment.
+      </p>
+      <h1 class="head">My Skills</h1>
+      <p class="p1">
+          <img class=img src="images/skills.jpg" alt="my skils">
+        Briefing about my skills,I have been learning to code since my
+        intermedate and I have a good hand in C++ and C.I know a little bit of
+        Java though I am not so fluent as in the other two.I got introduced to
+        web development through this task only and I am completely a newbie in
+        this field and I am trying to learn as much as I can in this short span
+        of time.I love algorithms and optimised approaches and am still in the
+        learning process.Being non-technical,I know a little bit of cooking
+        credits of whose go to mother.I can joke out of any topic even the
+        serious ones.Besides at times I impart motivation and philosophical
+        thoughts to my friends and thats a different thing that I fail to
+        implement all those in myself at the time of need.So this was all I
+        could get exploring myself.
+      </p>
+      <h1 class="head">List of my hobbies</h1>
+      <p class="p1">
+          <img class="img3" src="images/music.jfif" alt="hobby">
+          <img class="img" src="images/games.jfif" alt="hobby">
+          <ul>
+              <li class="list">listening to music</li>
+              <li class="list">watching thillers and fictions</li>
+              <li class="list">reading comics and stories</li>
+              <li class="list">trying out all types of games</li>
+
+          </ul>
+      </p>
+    </div>
+       <p id="cla"> Ways to reach out to me:<br/>
+                    <a class="social" href="https://facebook.com/likun.nayak.796/">facebook</a> <br/>
+                    <a class="social" href="https://instagram.com/likunnayak/">instagram</a><br/><br/>
+                    copyrights Biswajit Nayak 2021
+        </p>
+        <div class="switch">
+            change theme
+        </div>
+  </body>
+  <script type="text/javascript">
+    var color=["#000000","rgb(58 175 169)"];
+    var i=0;
+    document.querySelector(".switch").addEventListener("click",function(){
+        i==0  ? i=1 :i=0;
+    
+     document.querySelector("body").style.background=color[i];
+    })
+    </script>
+</html>
