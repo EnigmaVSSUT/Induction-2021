@@ -27,7 +27,7 @@ Third week will be a walk around on one of the most popular technologies of mode
 [TASK 1: Web Basics (HTML, CSS)](./Web%20Development/Task-1/) <br>
 [TASK 2: Web Basics (JS implementation)](./Web%20Development/Task-2/)
 
-### Week 4 (16.05.2021 to 22.05.2021) <a href="./Python%20and%20Ml"><img src="https://img.shields.io/badge/on%20-Going-green"></a>
+### Week 4 (16.05.2021 to 22.05.2021) :white_check_mark:
 The fourth and the final week will start with a very popular language, **Python**. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of **Machine Learning**.<br>
 
 [Task-1: Getting started with Python](./Python%20and%20Ml/Task-1)
