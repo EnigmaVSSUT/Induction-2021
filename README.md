@@ -30,7 +30,8 @@ Third week will be a walk around on one of the most popular technologies of mode
 ### Week 4 (16.05.2021 to 22.05.2021) :white_check_mark:
 The fourth and the final week will start with a very popular language, **Python**. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of **Machine Learning**.<br>
 
-[Task-1: Getting started with Python](./Python%20and%20Ml/Task-1)
+[Task-1: Getting started with Python](./Python%20and%20Ml/Task-1) <br>
+[Task-2: Introduction to ML](./Python%20and%20Ml/Task-2)
 
 #### _SUBMISSION:_ <br>
 Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on Github and submitting pull-requests to this repository. Keep in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly.
