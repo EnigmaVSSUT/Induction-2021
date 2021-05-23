@@ -21,14 +21,17 @@ Second week starts with a rigorous learning of **competitive coding**. After tha
 [Resources](./Competitive%20Coding/Task/Resources)
 
 
-### Week 3 (09.05.2021 to 15.05.2021)  <a href="./Web%20Development"><img src="https://img.shields.io/badge/on%20-Going-green"></a>
+### Week 3 (09.05.2021 to 15.05.2021)  :white_check_mark:
 Third week will be a walk around on one of the most popular technologies of modern world, web development. You will be learning the basics of web development, the languages like **HTML, CSS, Javascript** and others to come on the way.<br>
 
 [TASK 1: Web Basics (HTML, CSS)](./Web%20Development/Task-1/) <br>
 [TASK 2: Web Basics (JS implementation)](./Web%20Development/Task-2/)
 
-### Week 4 (16.05.2021 to 22.05.2021)
+### Week 4 (16.05.2021 to 22.05.2021) :white_check_mark:
 The fourth and the final week will start with a very popular language, **Python**. You will be learning the basic syntax and functioning of it and then we'll be heading towards the basics of **Machine Learning**.<br>
+
+[Task-1: Getting started with Python](./Python%20and%20Ml/Task-1) <br>
+[Task-2: Introduction to ML](./Python%20and%20Ml/Task-2)
 
 #### _SUBMISSION:_ <br>
 Throughout the month, you all will explore the various domains and submit your tasks by pushing your assignments on Github and submitting pull-requests to this repository. Keep in mind without pull requests your task will **NOT** be considered. We'll be constantly evaluating your progress accordingly.

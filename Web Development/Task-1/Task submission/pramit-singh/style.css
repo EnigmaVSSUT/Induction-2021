@@ -1,0 +1,37 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(253, 211, 211);
+    font-family: sans-serif;
+    color: black;
+}
+h1{
+    font-size: 7vh;
+    text-align: center;
+}
+.card{
+    margin-left:12.5%;
+    margin-right:12.5%;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.301);
+    border: 3px solid rgba(0, 0, 0, 0.808);
+    border-radius: 7px;
+    transition: 0.5s;
+    padding: 20px;
+    display: inline-flex;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+img{
+    width: 30%;
+    padding: 20px;
+    height: 30%;
+}
+h2{
+    color: red;
+}
+p{
+    color: black;
+}

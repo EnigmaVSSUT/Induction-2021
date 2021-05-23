@@ -1,0 +1,102 @@
+
+p{
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+html{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    border-style: solid;
+    border-color: rgba(6, 194, 219, 0.589);
+    border-width: 15px;
+}
+h1{
+    color: rgb(5, 224, 71);
+  font-family: fantasy;
+}
+body{
+    transform: translateX(370px);
+    width: 700px;
+    height: 1400px;
+    background-size: cover;
+    background-color: rgb(233, 20, 20);
+    border-style: solid;
+    border-color: coral;
+}
+.last li a{
+    padding: 5px 5px;
+    margin: center;
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    right: 30px;
+}
+.div4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px,20px;
+}
+.pic1{
+ padding-left: 500px;
+    width: 70px;
+    position: relative;
+    top: 110px;
+    right: 20px;
+}
+.div0{
+    
+    position: relative;
+    bottom: 100px;
+    transform: translateX(-10%);
+}
+.pic2{
+    padding-left: 500px;
+    position: relative;
+    bottom: 40px;
+}
+.div1{
+    position: relative;
+    bottom: 200px;
+    right: 80px;
+}
+.pic3{
+    padding-left: 500px;
+    position: relative;
+    bottom: 130px;
+}
+.div2{
+    position: relative;
+    bottom: 270px;
+    right: 70px;
+}
+.pic4{
+    position: relative;
+    bottom: 200px;
+    left: 250px;
+}
+.div3{
+    position: relative;
+    bottom: 330px;
+    right: 50px;
+}
+.div4{
+    position: relative;
+    bottom: 300px;
+    right: 40px;
+    color: rgb(15, 255, 7);
+}
+.links{
+    position: relative;
+    bottom: 300px;
+    right: 40px;
+}
+.last{
+    position: relative;
+    bottom: 250px;
+    right: 20px;
+    color: rgb(44, 240, 4);
+}
+
+
+
